@@ -1,0 +1,95 @@
+/* WordPress admin sidebar color integration only. */
+
+/* WordPress admin reset boundary
+   WordPress sidebar, Posts, Pages, Comments, Plugins, Users, WooCommerce and other core admin screens now use the original/default WordPress styling.
+   FB Software AI widget/settings styles above are preserved. */
+
+
+/* WordPress left sidebar color theme
+   Scope: standard WordPress admin side panel colors. No page/table/dashboard layout styling. */
+body.wp-admin #adminmenuback,
+body.wp-admin #adminmenuwrap,
+body.wp-admin #adminmenu,
+body.wp-admin #adminmenu .wp-submenu {
+  background: #0b1220 !important;
+}
+
+body.wp-admin #adminmenuwrap {
+  box-shadow: 18px 0 55px rgba(15, 23, 42, 0.16) !important;
+}
+
+body.wp-admin #adminmenu a,
+body.wp-admin #adminmenu div.wp-menu-name,
+body.wp-admin #adminmenu .wp-submenu a,
+body.wp-admin #collapse-button {
+  color: #dbeafe !important;
+}
+
+body.wp-admin #adminmenu div.wp-menu-image:before,
+body.wp-admin #collapse-button .collapse-button-icon:after {
+  color: #93c5fd !important;
+}
+
+body.wp-admin #adminmenu li.menu-top:hover,
+body.wp-admin #adminmenu li.opensub > a.menu-top,
+body.wp-admin #adminmenu li > a.menu-top:focus {
+  background: rgba(59, 130, 246, 0.14) !important;
+  color: #ffffff !important;
+}
+
+body.wp-admin #adminmenu li.menu-top:hover div.wp-menu-image:before,
+body.wp-admin #adminmenu li.opensub div.wp-menu-image:before,
+body.wp-admin #adminmenu li > a.menu-top:focus div.wp-menu-image:before {
+  color: #ffffff !important;
+}
+
+body.wp-admin #adminmenu li.wp-has-current-submenu > a.wp-has-current-submenu,
+body.wp-admin #adminmenu li.current a.menu-top,
+body.wp-admin #adminmenu .wp-has-current-submenu .wp-submenu .wp-submenu-head,
+body.wp-admin #adminmenu .wp-menu-arrow,
+body.wp-admin #adminmenu .wp-menu-arrow div {
+  background: linear-gradient(135deg, #2563eb 0%, #7c3aed 100%) !important;
+  color: #ffffff !important;
+}
+
+body.wp-admin #adminmenu li.wp-has-current-submenu div.wp-menu-image:before,
+body.wp-admin #adminmenu li.current div.wp-menu-image:before {
+  color: #ffffff !important;
+}
+
+body.wp-admin #adminmenu .wp-submenu {
+  box-shadow: 0 18px 50px rgba(2, 6, 23, 0.28) !important;
+}
+
+body.wp-admin #adminmenu .wp-submenu a {
+  color: #cbd5e1 !important;
+}
+
+body.wp-admin #adminmenu .wp-submenu a:hover,
+body.wp-admin #adminmenu .wp-submenu a:focus,
+body.wp-admin #adminmenu .wp-submenu li.current a,
+body.wp-admin #adminmenu .wp-submenu li.current a:hover {
+  color: #ffffff !important;
+  background: rgba(124, 58, 237, 0.18) !important;
+}
+
+body.wp-admin #adminmenu .awaiting-mod,
+body.wp-admin #adminmenu .update-plugins,
+body.wp-admin #adminmenu .plugin-count,
+body.wp-admin #adminmenu .pending-count {
+  background: linear-gradient(135deg, #38bdf8 0%, #8b5cf6 100%) !important;
+  color: #ffffff !important;
+}
+
+body.wp-admin #collapse-button:hover,
+body.wp-admin #collapse-button:focus {
+  color: #ffffff !important;
+  background: rgba(59, 130, 246, 0.14) !important;
+}
+
+body.wp-admin #collapse-button:hover .collapse-button-icon:after,
+body.wp-admin #collapse-button:focus .collapse-button-icon:after {
+  color: #ffffff !important;
+}
+
+

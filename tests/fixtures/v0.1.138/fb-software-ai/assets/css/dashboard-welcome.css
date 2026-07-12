@@ -1,0 +1,520 @@
+/* FB Software AI Dashboard Welcome Panel */
+body.fbsa-dashboard-welcome-active #welcome-panel {
+  overflow: hidden;
+  margin: 20px 0;
+  padding: 0;
+  border: 0;
+  border-radius: 18px;
+  background: #ffffff;
+  box-shadow: 0 18px 50px rgba(15, 23, 42, 0.12);
+}
+
+body.fbsa-dashboard-welcome-active #welcome-panel .welcome-panel-close {
+  z-index: 20;
+  top: 22px;
+  right: 24px;
+  color: #ffffff;
+  font-weight: 700;
+  text-shadow: 0 1px 2px rgba(15, 23, 42, 0.32);
+}
+
+body.fbsa-dashboard-welcome-active #welcome-panel .welcome-panel-close::before {
+  color: currentColor;
+}
+
+.fbsa-dashboard-welcome {
+  max-width: none;
+  margin: 0;
+  padding: 0;
+  color: #111827;
+}
+
+.fbsa-dashboard-welcome__hero {
+  position: relative;
+  isolation: isolate;
+  display: grid;
+  grid-template-columns: minmax(0, 1.25fr) minmax(280px, 0.75fr);
+  gap: 36px;
+  min-height: 310px;
+  padding: 42px 56px;
+  overflow: hidden;
+  background:
+    linear-gradient(98deg, rgba(255, 249, 252, 0.98) 0%, rgba(255, 237, 246, 0.94) 42%, rgba(78, 20, 124, 0.90) 75%, rgba(112, 24, 117, 0.95) 100%),
+    var(--fbsa-welcome-banner, linear-gradient(135deg, #fff7fb, #f7d9ee 48%, #5b167f));
+  background-position: center;
+  background-size: cover;
+}
+
+.fbsa-dashboard-welcome__hero::before,
+.fbsa-dashboard-welcome__hero::after {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  pointer-events: none;
+}
+
+.fbsa-dashboard-welcome__hero::before {
+  inset: 0;
+  background:
+    linear-gradient(132deg, transparent 0 54%, rgba(255, 255, 255, 0.18) 54% 58%, transparent 58% 64%, rgba(255, 255, 255, 0.10) 64% 69%, transparent 69%),
+    radial-gradient(circle at 70% 20%, rgba(255, 255, 255, 0.26), transparent 26%);
+}
+
+.fbsa-dashboard-welcome__hero::after {
+  width: 420px;
+  height: 420px;
+  right: -150px;
+  bottom: -230px;
+  border-radius: 50%;
+  border: 70px solid rgba(255, 255, 255, 0.08);
+}
+
+.fbsa-dashboard-welcome__hero-copy {
+  align-self: center;
+  max-width: 720px;
+}
+
+.fbsa-dashboard-welcome__brand {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-bottom: 18px;
+  color: #86135f;
+  font-size: 18px;
+  font-weight: 800;
+  letter-spacing: 0.01em;
+}
+
+.fbsa-dashboard-welcome__brand img {
+  width: 72px;
+  height: 72px;
+  padding: 8px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #ed174c, #7c166f 62%, #351260);
+  box-shadow: 0 14px 30px rgba(134, 19, 95, 0.22);
+}
+
+.fbsa-dashboard-welcome__hero h2 {
+  max-width: 740px;
+  margin: 0;
+  color: #111827;
+  font-size: clamp(38px, 4vw, 64px);
+  line-height: 0.98;
+  letter-spacing: -0.045em;
+}
+
+.fbsa-dashboard-welcome__hero-copy > p {
+  max-width: 690px;
+  margin: 22px 0 0;
+  color: #334155;
+  font-size: 18px;
+  line-height: 1.65;
+}
+
+.fbsa-dashboard-welcome__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 26px;
+}
+
+.fbsa-dashboard-welcome__button.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  min-height: 46px;
+  padding: 0 20px;
+  border-radius: 12px;
+  font-size: 14px;
+  font-weight: 800;
+  text-decoration: none;
+  box-shadow: none;
+}
+
+.fbsa-dashboard-welcome__button--primary.button.button-primary {
+  border-color: transparent;
+  background: linear-gradient(135deg, #ef174b, #8b21dd);
+  color: #ffffff;
+  box-shadow: 0 12px 28px rgba(167, 28, 142, 0.26);
+}
+
+.fbsa-dashboard-welcome__button--light.button {
+  border-color: rgba(139, 33, 221, 0.22);
+  background: rgba(255, 255, 255, 0.86);
+  color: #111827;
+}
+
+.fbsa-dashboard-welcome__feature-list {
+  align-self: center;
+  display: grid;
+  gap: 22px;
+  padding: 44px 28px 30px 50px;
+  color: #ffffff;
+}
+
+.fbsa-dashboard-welcome__feature-list span {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.fbsa-dashboard-welcome__feature-list i {
+  width: 34px;
+  height: 34px;
+  font-size: 32px;
+}
+
+.fbsa-dashboard-welcome__content {
+  display: grid;
+  grid-template-columns: minmax(0, 1.7fr) minmax(300px, 0.8fr);
+  gap: 22px;
+  padding: 24px;
+  background: linear-gradient(180deg, #ffffff, #fbfbfe);
+}
+
+.fbsa-dashboard-welcome__video-column,
+.fbsa-dashboard-welcome__side-column {
+  min-width: 0;
+}
+
+.fbsa-dashboard-welcome__video-card,
+.fbsa-dashboard-welcome__side-card,
+.fbsa-dashboard-welcome__social-card,
+.fbsa-dashboard-welcome__benefits {
+  border: 1px solid rgba(148, 163, 184, 0.22);
+  border-radius: 16px;
+  background: #ffffff;
+  box-shadow: 0 12px 32px rgba(15, 23, 42, 0.05);
+}
+
+.fbsa-dashboard-welcome__video-card {
+  overflow: hidden;
+  background: #090914;
+}
+
+.fbsa-dashboard-welcome__video-frame {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+}
+
+.fbsa-dashboard-welcome__video-frame iframe {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+.fbsa-dashboard-welcome__video-placeholder {
+  display: grid;
+  place-items: center;
+  min-height: 390px;
+  padding: 30px;
+  text-align: center;
+  background:
+    radial-gradient(circle at 74% 22%, rgba(197, 46, 190, 0.42), transparent 28%),
+    linear-gradient(135deg, #100d2d, #261054 48%, #7d196d);
+  color: #ffffff;
+}
+
+.fbsa-dashboard-welcome__video-placeholder .dashicons {
+  width: 72px;
+  height: 72px;
+  font-size: 72px;
+}
+
+.fbsa-dashboard-welcome__video-placeholder strong {
+  margin-top: 14px;
+  font-size: 26px;
+}
+
+.fbsa-dashboard-welcome__video-placeholder p {
+  max-width: 520px;
+  margin: 10px auto 0;
+  color: rgba(255, 255, 255, 0.78);
+}
+
+.fbsa-dashboard-welcome__benefits {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 0;
+  margin-top: 18px;
+  padding: 14px;
+}
+
+.fbsa-dashboard-welcome__benefits > div {
+  display: grid;
+  grid-template-columns: 42px 1fr;
+  gap: 2px 12px;
+  align-items: center;
+  min-width: 0;
+  padding: 12px;
+  border-right: 1px solid rgba(148, 163, 184, 0.18);
+}
+
+.fbsa-dashboard-welcome__benefits > div:last-child {
+  border-right: 0;
+}
+
+.fbsa-dashboard-welcome__benefits .dashicons {
+  grid-row: 1 / 3;
+  display: grid;
+  place-items: center;
+  width: 42px;
+  height: 42px;
+  border-radius: 12px;
+  background: linear-gradient(135deg, #fff0f7, #f1e8ff);
+  color: #a21caf;
+  font-size: 23px;
+}
+
+.fbsa-dashboard-welcome__benefits strong {
+  color: #111827;
+  font-size: 13px;
+}
+
+.fbsa-dashboard-welcome__benefits small {
+  color: #64748b;
+  line-height: 1.35;
+}
+
+.fbsa-dashboard-welcome__side-column {
+  display: grid;
+  align-content: start;
+  gap: 14px;
+}
+
+.fbsa-dashboard-welcome__side-card {
+  display: grid;
+  grid-template-columns: 50px 1fr;
+  gap: 14px;
+  padding: 18px;
+}
+
+.fbsa-dashboard-welcome__side-card > .dashicons {
+  display: grid;
+  place-items: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 14px;
+  background: linear-gradient(135deg, #fff0f7, #f1e8ff);
+  color: #d11b74;
+  font-size: 28px;
+}
+
+.fbsa-dashboard-welcome__side-card h3,
+.fbsa-dashboard-welcome__social-card h3 {
+  margin: 1px 0 7px;
+  color: #111827;
+  font-size: 17px;
+}
+
+.fbsa-dashboard-welcome__side-card p {
+  margin: 0;
+  color: #64748b;
+  line-height: 1.5;
+}
+
+.fbsa-dashboard-welcome__side-card a {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 14px;
+  padding: 11px 13px;
+  border: 1px solid rgba(148, 163, 184, 0.28);
+  border-radius: 10px;
+  color: #111827;
+  font-weight: 800;
+  text-decoration: none;
+}
+
+.fbsa-dashboard-welcome__side-card a:hover,
+.fbsa-dashboard-welcome__manage-link:hover {
+  border-color: rgba(139, 33, 221, 0.42);
+  color: #7e22ce;
+}
+
+.fbsa-dashboard-welcome__social-card {
+  padding: 18px;
+}
+
+.fbsa-dashboard-welcome__social-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.fbsa-dashboard-welcome__social-links a {
+  display: grid;
+  place-items: center;
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #e91e63, #6d28d9);
+  color: #ffffff;
+  text-decoration: none;
+  box-shadow: 0 8px 18px rgba(109, 40, 217, 0.18);
+  transition: transform 160ms ease, box-shadow 160ms ease;
+}
+
+.fbsa-dashboard-welcome__social-links a:hover {
+  transform: translateY(-2px);
+  color: #ffffff;
+  box-shadow: 0 12px 24px rgba(109, 40, 217, 0.25);
+}
+
+.fbsa-dashboard-welcome__manage-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 12px;
+  border: 1px dashed rgba(100, 116, 139, 0.34);
+  border-radius: 12px;
+  color: #475569;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+@media (max-width: 1200px) {
+  .fbsa-dashboard-welcome__hero {
+    grid-template-columns: 1fr;
+  }
+
+  .fbsa-dashboard-welcome__feature-list {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    padding: 0;
+  }
+
+  .fbsa-dashboard-welcome__content {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 900px) {
+  .fbsa-dashboard-welcome__hero {
+    padding: 34px 28px;
+  }
+
+  .fbsa-dashboard-welcome__benefits {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .fbsa-dashboard-welcome__benefits > div:nth-child(2) {
+    border-right: 0;
+  }
+}
+
+@media (max-width: 620px) {
+  body.fbsa-dashboard-welcome-active #welcome-panel .welcome-panel-close {
+    top: 14px;
+    right: 12px;
+  }
+
+  .fbsa-dashboard-welcome__hero {
+    padding: 56px 20px 28px;
+  }
+
+  .fbsa-dashboard-welcome__brand img {
+    width: 58px;
+    height: 58px;
+  }
+
+  .fbsa-dashboard-welcome__hero h2 {
+    font-size: 40px;
+  }
+
+  .fbsa-dashboard-welcome__feature-list,
+  .fbsa-dashboard-welcome__benefits {
+    grid-template-columns: 1fr;
+  }
+
+  .fbsa-dashboard-welcome__feature-list {
+    gap: 14px;
+  }
+
+  .fbsa-dashboard-welcome__content {
+    padding: 14px;
+  }
+
+  .fbsa-dashboard-welcome__benefits > div {
+    border-right: 0;
+    border-bottom: 1px solid rgba(148, 163, 184, 0.18);
+  }
+
+  .fbsa-dashboard-welcome__benefits > div:last-child {
+    border-bottom: 0;
+  }
+}
+
+/* FB Software AI Dashboard checklist widgets. */
+#fbsa_website_steps_widget .inside,
+#fbsa_plugin_setup_widget .inside,
+#fbsa_website_settings_widget .inside,
+#fbsa_help_tutorials_widget .inside {
+  margin: 0;
+  padding: 12px;
+}
+
+.fbsa-dashboard-steps__intro {
+  margin: 0 0 12px;
+  color: #646970;
+  line-height: 1.5;
+}
+
+.fbsa-dashboard-steps__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.fbsa-dashboard-steps__item {
+  display: flex;
+  align-items: flex-start;
+  gap: 7px;
+  margin: 0 0 9px;
+}
+
+.fbsa-dashboard-steps__item:last-child {
+  margin-bottom: 0;
+}
+
+.fbsa-dashboard-steps__status.dashicons {
+  flex: 0 0 18px;
+  width: 18px;
+  height: 18px;
+  margin-top: 1px;
+  color: #d63638;
+  font-size: 18px;
+  line-height: 18px;
+}
+
+.fbsa-dashboard-steps__link {
+  color: #3858e9;
+  line-height: 1.45;
+  text-decoration: none;
+}
+
+.fbsa-dashboard-steps__link:hover,
+.fbsa-dashboard-steps__link:focus {
+  color: #1d35b4;
+  text-decoration: underline;
+}
+
+.fbsa-dashboard-steps__message {
+  margin: 12px 0 0;
+  padding: 8px 10px;
+  border-left: 3px solid #3858e9;
+  background: #f0f6fc;
+  color: #2c3338;
+  line-height: 1.45;
+}
+
+
+.fbsa-dashboard-steps__item.has-video .fbsa-dashboard-steps__status.dashicons {
+  color: #008a20;
+}

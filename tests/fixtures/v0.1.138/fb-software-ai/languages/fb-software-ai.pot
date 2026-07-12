@@ -1,0 +1,2387 @@
+# Copyright (C) 2026 FB Software Solutions
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: FB Software AI 0.1.136\n"
+"Report-Msgid-Bugs-To: https://fbsoftwaresolutions.com\n"
+"POT-Creation-Date: 2026-07-12 00:00+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Domain: fb-software-ai\n"
+
+#: includes/i18n-catalog.php:16
+msgid "%d core page task completed."
+msgstr ""
+
+#: includes/i18n-catalog.php:17
+msgid "%d core page tasks completed."
+msgstr ""
+
+#: includes/i18n-catalog.php:18
+msgid "%d guide"
+msgstr ""
+
+#: includes/i18n-catalog.php:19
+msgid "%d guides"
+msgstr ""
+
+#: includes/i18n-catalog.php:20
+msgid "%d required plugin is installed."
+msgstr ""
+
+#: includes/i18n-catalog.php:21
+msgid "%d required plugins are installed."
+msgstr ""
+
+#: includes/i18n-catalog.php:22
+msgid "%d video"
+msgstr ""
+
+#: includes/i18n-catalog.php:23
+msgid "%d videos"
+msgstr ""
+
+#: includes/i18n-catalog.php:24
+msgid "%s are installed."
+msgstr ""
+
+#: includes/i18n-catalog.php:25
+msgid "%s could not be deactivated."
+msgstr ""
+
+#: includes/i18n-catalog.php:26
+msgid "%s could not be uninstalled. WordPress may need file-system permissions."
+msgstr ""
+
+#: includes/i18n-catalog.php:27
+msgid "%s fallback video"
+msgstr ""
+
+#: includes/i18n-catalog.php:28
+msgid "%s guide will be available soon."
+msgstr ""
+
+#: includes/i18n-catalog.php:29
+msgid "%s has been deactivated."
+msgstr ""
+
+#: includes/i18n-catalog.php:30
+msgid "%s has been uninstalled."
+msgstr ""
+
+#: includes/i18n-catalog.php:31
+msgid "%s is already deactivated. You can activate or uninstall it from the card."
+msgstr ""
+
+#: includes/i18n-catalog.php:32
+msgid "%s is installed."
+msgstr ""
+
+#: includes/i18n-catalog.php:33
+msgid "%s is not installed."
+msgstr ""
+
+#: includes/i18n-catalog.php:34
+msgid "%s page created, published, and added to the main menu."
+msgstr ""
+
+#: includes/i18n-catalog.php:35
+msgid "%s plugin is already installed and active."
+msgstr ""
+
+#: includes/i18n-catalog.php:36
+msgid "%s plugin is already installed and now activated."
+msgstr ""
+
+#: includes/i18n-catalog.php:37
+msgid "%s plugin is already installed."
+msgstr ""
+
+#: includes/i18n-catalog.php:38
+msgid "%s plugin is installed and activated."
+msgstr ""
+
+#: includes/i18n-catalog.php:39
+msgid "%s plugin is installed."
+msgstr ""
+
+#: includes/i18n-catalog.php:40
+msgid "%s plugins are installed."
+msgstr ""
+
+#: includes/i18n-catalog.php:41
+msgid "%s video"
+msgstr ""
+
+#: includes/i18n-catalog.php:42
+msgid "1. Install Elementor"
+msgstr ""
+
+#: includes/i18n-catalog.php:43
+msgid "1. Set the Homepage"
+msgstr ""
+
+#: includes/i18n-catalog.php:44
+msgid "1. Watch the Welcome Video"
+msgstr ""
+
+#: includes/i18n-catalog.php:45
+msgid "1. What to do before starting a website"
+msgstr ""
+
+#: includes/i18n-catalog.php:46
+msgid "10. Launch the Website"
+msgstr ""
+
+#: includes/i18n-catalog.php:47
+msgid "2. Install Site Kit by Google"
+msgstr ""
+
+#: includes/i18n-catalog.php:48
+msgid "2. Make a Back-up"
+msgstr ""
+
+#: includes/i18n-catalog.php:49
+msgid "2. Open Guide Videos"
+msgstr ""
+
+#: includes/i18n-catalog.php:50
+msgid "2. Set the Blog Page"
+msgstr ""
+
+#: includes/i18n-catalog.php:51
+msgid "3. Configure Permalinks"
+msgstr ""
+
+#: includes/i18n-catalog.php:52
+msgid "3. Install a Backup Plugin"
+msgstr ""
+
+#: includes/i18n-catalog.php:53
+msgid "3. Install a Theme"
+msgstr ""
+
+#: includes/i18n-catalog.php:54
+msgid "3. Open FB Software AI Documentation"
+msgstr ""
+
+#: includes/i18n-catalog.php:55
+msgid "4. Contact Support"
+msgstr ""
+
+#: includes/i18n-catalog.php:56
+msgid "4. Install an SMTP Plugin"
+msgstr ""
+
+#: includes/i18n-catalog.php:57
+msgid "4. Install Essential Plugins"
+msgstr ""
+
+#: includes/i18n-catalog.php:58
+msgid "4. Set the Website Title and Tagline"
+msgstr ""
+
+#: includes/i18n-catalog.php:59
+msgid "5. Check Plugin Updates"
+msgstr ""
+
+#: includes/i18n-catalog.php:60
+msgid "5. Configure Reading Settings"
+msgstr ""
+
+#: includes/i18n-catalog.php:61
+msgid "5. Create Your Main Website Pages"
+msgstr ""
+
+#: includes/i18n-catalog.php:62
+msgid "5. Visit the YouTube Channel"
+msgstr ""
+
+#: includes/i18n-catalog.php:63
+msgid "6. Configure Discussion Settings"
+msgstr ""
+
+#: includes/i18n-catalog.php:64
+msgid "6. Set the Homepage and Blog Page"
+msgstr ""
+
+#: includes/i18n-catalog.php:65
+msgid "7. Create the Website Navigation Menu"
+msgstr ""
+
+#: includes/i18n-catalog.php:66
+msgid "8. Configure Website Security"
+msgstr ""
+
+#: includes/i18n-catalog.php:67
+msgid "9. Test the Website Before Launch"
+msgstr ""
+
+#: includes/i18n-catalog.php:68
+msgid "About"
+msgstr ""
+
+#: includes/i18n-catalog.php:69
+msgid "Action"
+msgstr ""
+
+#: includes/i18n-catalog.php:70
+msgid "Action completed."
+msgstr ""
+
+#: includes/i18n-catalog.php:71
+msgid "Activate after install"
+msgstr ""
+
+#: includes/i18n-catalog.php:72
+msgid "Activation"
+msgstr ""
+
+#: includes/i18n-catalog.php:73
+msgid "Active"
+msgstr ""
+
+#: includes/i18n-catalog.php:74
+msgid "Add Custom Command"
+msgstr ""
+
+#: includes/i18n-catalog.php:75
+msgid "Add New Plugin"
+msgstr ""
+
+#: includes/i18n-catalog.php:76
+msgid "Add Page"
+msgstr ""
+
+#: includes/i18n-catalog.php:77
+msgid "Add Post"
+msgstr ""
+
+#: includes/i18n-catalog.php:78
+msgid "Add the YouTube video under Tools → FB Software AI → Guide Videos."
+msgstr ""
+
+#: includes/i18n-catalog.php:79
+msgid "Add Third-Party Plugin Commands"
+msgstr ""
+
+#: includes/i18n-catalog.php:80
+msgid "Add User"
+msgstr ""
+
+#: includes/i18n-catalog.php:81
+msgid "Add your own commands to the floating widget. Use this for third-party plugin setup pages, plugin dashboards, or extra theme installer commands."
+msgstr ""
+
+#: includes/i18n-catalog.php:82
+msgid "Admin only"
+msgstr ""
+
+#: includes/i18n-catalog.php:83
+msgid "Admin page"
+msgstr ""
+
+#: includes/i18n-catalog.php:84
+msgid "Admin Path"
+msgstr ""
+
+#: includes/i18n-catalog.php:85
+msgid "Admin Shortcuts"
+msgstr ""
+
+#: includes/i18n-catalog.php:86
+msgid "Admin, Frontend, Customizer"
+msgstr ""
+
+#: includes/i18n-catalog.php:87
+msgid "Administrators can view and copy the links, but they cannot edit or save replacements."
+msgstr ""
+
+#: includes/i18n-catalog.php:88
+msgid "All Posts"
+msgstr ""
+
+#: includes/i18n-catalog.php:89
+msgid "All Required Plugins are installed"
+msgstr ""
+
+#: includes/i18n-catalog.php:90
+msgid "All Users"
+msgstr ""
+
+#: includes/i18n-catalog.php:91
+msgid "Appearance"
+msgstr ""
+
+#: includes/i18n-catalog.php:92
+msgid "Appearance panel shortcuts."
+msgstr ""
+
+#: includes/i18n-catalog.php:93
+msgid "Are you sure?"
+msgstr ""
+
+#: includes/i18n-catalog.php:94
+msgid "Available Tools"
+msgstr ""
+
+#: includes/i18n-catalog.php:95
+msgid "Backend Shortcuts"
+msgstr ""
+
+#: includes/i18n-catalog.php:96
+msgid "Backend WordPress Panel"
+msgstr ""
+
+#: includes/i18n-catalog.php:97
+msgid "Banner + links"
+msgstr ""
+
+#: includes/i18n-catalog.php:98
+msgid "Bilingual links"
+msgstr ""
+
+#: includes/i18n-catalog.php:99
+msgid "Bilingual welcome and guide video links saved."
+msgstr ""
+
+#: includes/i18n-catalog.php:100
+msgid "Blog"
+msgstr ""
+
+#: includes/i18n-catalog.php:101
+msgid "Blog post created and published."
+msgstr ""
+
+#: includes/i18n-catalog.php:102
+msgid "Build websites faster"
+msgstr ""
+
+#: includes/i18n-catalog.php:103
+msgid "Built-in workspace commands are loaded from"
+msgstr ""
+
+#: includes/i18n-catalog.php:104
+msgid "Button Label"
+msgstr ""
+
+#: includes/i18n-catalog.php:105
+msgid "Cancel"
+msgstr ""
+
+#: includes/i18n-catalog.php:106
+msgid "Categories"
+msgstr ""
+
+#: includes/i18n-catalog.php:107
+msgid "Category"
+msgstr ""
+
+#: includes/i18n-catalog.php:108
+msgid "Channel and Welcome Video"
+msgstr ""
+
+#: includes/i18n-catalog.php:109
+msgid "Choose a command"
+msgstr ""
+
+#: includes/i18n-catalog.php:110
+msgid "Choose a command to continue."
+msgstr ""
+
+#: includes/i18n-catalog.php:111
+msgid "Choose a sub category"
+msgstr ""
+
+#: includes/i18n-catalog.php:112
+msgid "Choose a sub category to continue."
+msgstr ""
+
+#: includes/i18n-catalog.php:113
+msgid "Choose FB Software AI Welcome Banner"
+msgstr ""
+
+#: includes/i18n-catalog.php:114
+msgid "Click Create Blog Post to publish a new post. The plugin will return you to the Posts list."
+msgstr ""
+
+#: includes/i18n-catalog.php:115
+msgid "Close"
+msgstr ""
+
+#: includes/i18n-catalog.php:116
+msgid "Close Custom Command"
+msgstr ""
+
+#: includes/i18n-catalog.php:117
+msgid "Close FB Software AI popup"
+msgstr ""
+
+#: includes/i18n-catalog.php:118
+msgid "Close guide video"
+msgstr ""
+
+#: includes/i18n-catalog.php:119
+msgid "Command"
+msgstr ""
+
+#: includes/i18n-catalog.php:120
+msgid "Command Label"
+msgstr ""
+
+#: includes/i18n-catalog.php:121
+msgid "Command Message"
+msgstr ""
+
+#: includes/i18n-catalog.php:122
+msgid "Command not found."
+msgstr ""
+
+#: includes/i18n-catalog.php:123
+msgid "Command Source"
+msgstr ""
+
+#: includes/i18n-catalog.php:124
+msgid "Command Type"
+msgstr ""
+
+#: includes/i18n-catalog.php:125
+msgid "Command Video Links"
+msgstr ""
+
+#: includes/i18n-catalog.php:126
+msgid "Commands"
+msgstr ""
+
+#: includes/i18n-catalog.php:127
+msgid "Comment management shortcut."
+msgstr ""
+
+#: includes/i18n-catalog.php:128
+msgid "Comments"
+msgstr ""
+
+#: includes/i18n-catalog.php:129
+msgid "Complete steps for your website:"
+msgstr ""
+
+#: includes/i18n-catalog.php:130
+msgid "Complete your essential plugin setup:"
+msgstr ""
+
+#: includes/i18n-catalog.php:131
+msgid "Complete your WordPress website settings:"
+msgstr ""
+
+#: includes/i18n-catalog.php:132
+msgid "Configure FluentSMTP"
+msgstr ""
+
+#: includes/i18n-catalog.php:133
+msgid "Configure the floating widget, custom commands, fixed setup installers, and progress controls from one clean premium panel."
+msgstr ""
+
+#: includes/i18n-catalog.php:134
+msgid "Confirm Action"
+msgstr ""
+
+#: includes/i18n-catalog.php:135
+msgid "Confirm action"
+msgstr ""
+
+#: includes/i18n-catalog.php:136
+msgid "Connect With Us"
+msgstr ""
+
+#: includes/i18n-catalog.php:137
+msgid "Connect With Us Links"
+msgstr ""
+
+#: includes/i18n-catalog.php:138
+msgid "Contact"
+msgstr ""
+
+#: includes/i18n-catalog.php:139
+msgid "Contact Form 7"
+msgstr ""
+
+#: includes/i18n-catalog.php:140
+msgid "Controls the Dashboard Screen Options welcome panel, video section, buttons, memberships, and social links."
+msgstr ""
+
+#: includes/i18n-catalog.php:141
+msgid "Controls the shared Dashboard banner plus separate Turkish and English welcome videos, buttons, memberships, and YouTube channels."
+msgstr ""
+
+#: includes/i18n-catalog.php:142
+msgid "Core progress"
+msgstr ""
+
+#: includes/i18n-catalog.php:143
+msgid "Could not find current WordPress admin content."
+msgstr ""
+
+#: includes/i18n-catalog.php:144
+msgid "Could not find WordPress admin content."
+msgstr ""
+
+#: includes/i18n-catalog.php:145
+msgid "Could not remove legacy path: %s."
+msgstr ""
+
+#: includes/i18n-catalog.php:146
+msgid "Could not remove malformed legacy file group: %s."
+msgstr ""
+
+#: includes/i18n-catalog.php:147
+msgid "Create"
+msgstr ""
+
+#: includes/i18n-catalog.php:148
+msgid "Create About Page"
+msgstr ""
+
+#: includes/i18n-catalog.php:149
+msgid "Create and publish a new blog post, then return to the Posts list."
+msgstr ""
+
+#: includes/i18n-catalog.php:150
+msgid "Create Blog Page"
+msgstr ""
+
+#: includes/i18n-catalog.php:151
+msgid "Create Blog Post"
+msgstr ""
+
+#: includes/i18n-catalog.php:152
+msgid "Create Contact Page"
+msgstr ""
+
+#: includes/i18n-catalog.php:153
+msgid "Create FAQ Page"
+msgstr ""
+
+#: includes/i18n-catalog.php:154
+msgid "Create Home Page"
+msgstr ""
+
+#: includes/i18n-catalog.php:155
+msgid "Create Portfolio Page"
+msgstr ""
+
+#: includes/i18n-catalog.php:156
+msgid "Create Pricing Page"
+msgstr ""
+
+#: includes/i18n-catalog.php:157
+msgid "Create Products Page"
+msgstr ""
+
+#: includes/i18n-catalog.php:158
+msgid "Create Services Page"
+msgstr ""
+
+#: includes/i18n-catalog.php:159
+msgid "Create your core pages to increase progress."
+msgstr ""
+
+#: includes/i18n-catalog.php:160
+msgid "Creates a published About page, then returns to Pages."
+msgstr ""
+
+#: includes/i18n-catalog.php:161
+msgid "Creates a published Blog page, assigns it as the WordPress posts page, then returns to Pages."
+msgstr ""
+
+#: includes/i18n-catalog.php:162
+msgid "Creates a published Contact page, then returns to Pages."
+msgstr ""
+
+#: includes/i18n-catalog.php:163
+msgid "Creates a published FAQ page, then returns to Pages."
+msgstr ""
+
+#: includes/i18n-catalog.php:164
+msgid "Creates a published Home page, assigns it as the WordPress homepage, then returns to Pages."
+msgstr ""
+
+#: includes/i18n-catalog.php:165
+msgid "Creates a published Portfolio page, then returns to Pages."
+msgstr ""
+
+#: includes/i18n-catalog.php:166
+msgid "Creates a published Pricing page, then returns to Pages."
+msgstr ""
+
+#: includes/i18n-catalog.php:167
+msgid "Creates a published Products page, then returns to Pages."
+msgstr ""
+
+#: includes/i18n-catalog.php:168
+msgid "Creates a published Services page, then returns to Pages."
+msgstr ""
+
+#: includes/i18n-catalog.php:169
+msgid "Creating content now..."
+msgstr ""
+
+#: includes/i18n-catalog.php:170
+msgid "Current administrator video language:"
+msgstr ""
+
+#: includes/i18n-catalog.php:171
+msgid "Current Custom Commands"
+msgstr ""
+
+#: includes/i18n-catalog.php:172
+msgid "Current Demo Progress"
+msgstr ""
+
+#: includes/i18n-catalog.php:173
+msgid "Current FB Software AI welcome banner"
+msgstr ""
+
+#: includes/i18n-catalog.php:174
+msgid "Custom command added from FB Software AI settings."
+msgstr ""
+
+#: includes/i18n-catalog.php:175
+msgid "Custom Commands"
+msgstr ""
+
+#: includes/i18n-catalog.php:176
+msgid "Custom commands added from the FB Software AI settings page."
+msgstr ""
+
+#: includes/i18n-catalog.php:177
+msgid "Custom Widget Commands"
+msgstr ""
+
+#: includes/i18n-catalog.php:178
+msgid "Customize"
+msgstr ""
+
+#: includes/i18n-catalog.php:179
+msgid "Customizer"
+msgstr ""
+
+#: includes/i18n-catalog.php:180
+msgid "Dark"
+msgstr ""
+
+#: includes/i18n-catalog.php:181
+msgid "Dashboard"
+msgstr ""
+
+#: includes/i18n-catalog.php:182
+msgid "Dashboard shortcuts."
+msgstr ""
+
+#: includes/i18n-catalog.php:183
+msgid "Dashboard — Help and Tutorials"
+msgstr ""
+
+#: includes/i18n-catalog.php:184
+msgid "Dashboard — Plugin Setup"
+msgstr ""
+
+#: includes/i18n-catalog.php:185
+msgid "Dashboard — Website Settings"
+msgstr ""
+
+#: includes/i18n-catalog.php:186
+msgid "Dashboard — Website Steps"
+msgstr ""
+
+#: includes/i18n-catalog.php:187
+msgid "Deactivate %s before uninstalling it."
+msgstr ""
+
+#: includes/i18n-catalog.php:188
+msgid "Deactivate theme?"
+msgstr ""
+
+#: includes/i18n-catalog.php:189
+msgid "Delete"
+msgstr ""
+
+#: includes/i18n-catalog.php:190
+msgid "Description"
+msgstr ""
+
+#: includes/i18n-catalog.php:191
+msgid "Design"
+msgstr ""
+
+#: includes/i18n-catalog.php:192
+msgid "Discussion"
+msgstr ""
+
+#: includes/i18n-catalog.php:193
+msgid "Done"
+msgstr ""
+
+#: includes/i18n-catalog.php:194
+msgid "Drag top bar • resize bottom-right corner • Close stops video"
+msgstr ""
+
+#: includes/i18n-catalog.php:195
+msgid "Easy tutorials for every task."
+msgstr ""
+
+#: includes/i18n-catalog.php:196
+msgid "English"
+msgstr ""
+
+#: includes/i18n-catalog.php:197
+msgid "Erase Personal Data"
+msgstr ""
+
+#: includes/i18n-catalog.php:198
+msgid "Example: FluentSMTP Settings"
+msgstr ""
+
+#: includes/i18n-catalog.php:199
+msgid "Existing single-language links are preserved in the Turkish profile. Leave either language empty to use the other language as a fallback."
+msgstr ""
+
+#: includes/i18n-catalog.php:200
+msgid "Expanded WordPress backend panel shortcuts. These commands only redirect the admin to WordPress backend screens when the action button is clicked."
+msgstr ""
+
+#: includes/i18n-catalog.php:201
+msgid "Explain what this command does for the user."
+msgstr ""
+
+#: includes/i18n-catalog.php:202
+msgid "Explore membership levels, loyalty badges, and exclusive benefits."
+msgstr ""
+
+#: includes/i18n-catalog.php:203
+msgid "Export"
+msgstr ""
+
+#: includes/i18n-catalog.php:204
+msgid "Export Personal Data"
+msgstr ""
+
+#: includes/i18n-catalog.php:205
+msgid "Facebook"
+msgstr ""
+
+#: includes/i18n-catalog.php:206
+msgid "FAQ"
+msgstr ""
+
+#: includes/i18n-catalog.php:207
+msgid "FB Software AI"
+msgstr ""
+
+#: includes/i18n-catalog.php:208
+msgid "FB Software AI expanded guide video"
+msgstr ""
+
+#: includes/i18n-catalog.php:209
+msgid "FB Software AI floating guide video"
+msgstr ""
+
+#: includes/i18n-catalog.php:210
+msgid "FB Software AI found %d old copies but the hosting filesystem did not allow them to be removed automatically."
+msgstr ""
+
+#: includes/i18n-catalog.php:211
+msgid "FB Software AI found %d old copy but the hosting filesystem did not allow it to be removed automatically."
+msgstr ""
+
+#: includes/i18n-catalog.php:212
+msgid "FB Software AI Guide Video"
+msgstr ""
+
+#: includes/i18n-catalog.php:213
+msgid "FB Software AI guide video preview"
+msgstr ""
+
+#: includes/i18n-catalog.php:214
+msgid "FB Software AI highlights"
+msgstr ""
+
+#: includes/i18n-catalog.php:215
+msgid "FB Software AI Main Menu"
+msgstr ""
+
+#: includes/i18n-catalog.php:216
+msgid "FB Software AI merged and removed %d inactive legacy copies. Your current plugin and settings were kept."
+msgstr ""
+
+#: includes/i18n-catalog.php:217
+msgid "FB Software AI merged and removed %d inactive legacy copy. Your current plugin and settings were kept."
+msgstr ""
+
+#: includes/i18n-catalog.php:218
+msgid "FB Software AI persistent guide video"
+msgstr ""
+
+#: includes/i18n-catalog.php:219
+msgid "FB Software AI Settings"
+msgstr ""
+
+#: includes/i18n-catalog.php:220
+msgid "FB Software AI settings sections"
+msgstr ""
+
+#: includes/i18n-catalog.php:221
+msgid "FB Software AI setup alerts"
+msgstr ""
+
+#: includes/i18n-catalog.php:222
+msgid "FB Software AI Welcome"
+msgstr ""
+
+#: includes/i18n-catalog.php:223
+msgid "FB Software AI WordPress backend shortcuts"
+msgstr ""
+
+#: includes/i18n-catalog.php:224
+msgid "FB Software AI — Help and Tutorials"
+msgstr ""
+
+#: includes/i18n-catalog.php:225
+msgid "FB Software AI — Plugin Setup"
+msgstr ""
+
+#: includes/i18n-catalog.php:226
+msgid "FB Software AI — Website Settings"
+msgstr ""
+
+#: includes/i18n-catalog.php:227
+msgid "Fixed Command"
+msgstr ""
+
+#: includes/i18n-catalog.php:228
+msgid "Fixed Commands"
+msgstr ""
+
+#: includes/i18n-catalog.php:229
+msgid "Floating Widget"
+msgstr ""
+
+#: includes/i18n-catalog.php:230
+msgid "FluentSMTP needs to be configured for it to work."
+msgstr ""
+
+#: includes/i18n-catalog.php:231
+msgid "Fonts"
+msgstr ""
+
+#: includes/i18n-catalog.php:232
+msgid "For admin commands only. Do not include your domain."
+msgstr ""
+
+#: includes/i18n-catalog.php:233
+msgid "For plugin installer commands only. Use the WordPress.org plugin slug."
+msgstr ""
+
+#: includes/i18n-catalog.php:234
+msgid "For theme installer commands only."
+msgstr ""
+
+#: includes/i18n-catalog.php:235
+msgid "Full"
+msgstr ""
+
+#: includes/i18n-catalog.php:236
+msgid "General"
+msgstr ""
+
+#: includes/i18n-catalog.php:237
+msgid "Guide Video"
+msgstr ""
+
+#: includes/i18n-catalog.php:238
+msgid "Guide video selected for this command. Update it in FB Software AI settings if you want to use a different tutorial."
+msgstr ""
+
+#: includes/i18n-catalog.php:239
+msgid "Guide Video URL"
+msgstr ""
+
+#: includes/i18n-catalog.php:240
+msgid "Guide Videos"
+msgstr ""
+
+#: includes/i18n-catalog.php:241
+msgid "Guide: FB Software AI tutorial"
+msgstr ""
+
+#: includes/i18n-catalog.php:242
+msgid "Hello Elementor"
+msgstr ""
+
+#: includes/i18n-catalog.php:243
+msgid "Home"
+msgstr ""
+
+#: includes/i18n-catalog.php:244
+msgid "Import"
+msgstr ""
+
+#: includes/i18n-catalog.php:245
+msgid "Important plugin messages appear only in this dedicated section, never inside the top banner."
+msgstr ""
+
+#: includes/i18n-catalog.php:246
+msgid "Instagram"
+msgstr ""
+
+#: includes/i18n-catalog.php:247
+msgid "Install / Activate"
+msgstr ""
+
+#: includes/i18n-catalog.php:248
+msgid "Install Astra Theme"
+msgstr ""
+
+#: includes/i18n-catalog.php:249
+msgid "Install Blocksy Theme"
+msgstr ""
+
+#: includes/i18n-catalog.php:250
+msgid "Install Contact Form 7 Plugin"
+msgstr ""
+
+#: includes/i18n-catalog.php:251
+msgid "Install Elementor Plugin"
+msgstr ""
+
+#: includes/i18n-catalog.php:252
+msgid "Install FluentSMTP Plugin"
+msgstr ""
+
+#: includes/i18n-catalog.php:253
+msgid "Install Hello Elementor Theme"
+msgstr ""
+
+#: includes/i18n-catalog.php:254
+msgid "Install Kadence Theme"
+msgstr ""
+
+#: includes/i18n-catalog.php:255
+msgid "Install Loco Translate Plugin"
+msgstr ""
+
+#: includes/i18n-catalog.php:256
+msgid "Install LocoAI Plugin"
+msgstr ""
+
+#: includes/i18n-catalog.php:257
+msgid "Install OceanWP Theme"
+msgstr ""
+
+#: includes/i18n-catalog.php:258
+msgid "Install Plugin"
+msgstr ""
+
+#: includes/i18n-catalog.php:259
+msgid "Install Plugin from WordPress.org"
+msgstr ""
+
+#: includes/i18n-catalog.php:260
+msgid "Install Plugins"
+msgstr ""
+
+#: includes/i18n-catalog.php:261
+msgid "Install Required Plugins"
+msgstr ""
+
+#: includes/i18n-catalog.php:262
+msgid "Install Site Kit by Google Plugin"
+msgstr ""
+
+#: includes/i18n-catalog.php:263
+msgid "Install Theme"
+msgstr ""
+
+#: includes/i18n-catalog.php:264
+msgid "Install Theme from WordPress.org"
+msgstr ""
+
+#: includes/i18n-catalog.php:265
+msgid "Install Themes"
+msgstr ""
+
+#: includes/i18n-catalog.php:266
+msgid "Install WooCommerce Plugin"
+msgstr ""
+
+#: includes/i18n-catalog.php:267
+msgid "Install WordPress Theme"
+msgstr ""
+
+#: includes/i18n-catalog.php:268
+msgid "Install WPvivid Plugin"
+msgstr ""
+
+#: includes/i18n-catalog.php:269
+msgid "Install Yoast Duplicate Post Plugin"
+msgstr ""
+
+#: includes/i18n-catalog.php:270
+msgid "Install Zakra Theme"
+msgstr ""
+
+#: includes/i18n-catalog.php:271
+msgid "Install, activate, deactivate, or uninstall locked theme setup tools from official WordPress.org sources."
+msgstr ""
+
+#: includes/i18n-catalog.php:272
+msgid "Installed"
+msgstr ""
+
+#: includes/i18n-catalog.php:273
+msgid "Installed Plugins"
+msgstr ""
+
+#: includes/i18n-catalog.php:274
+msgid "Installing plugin now..."
+msgstr ""
+
+#: includes/i18n-catalog.php:275
+msgid "Installing theme now..."
+msgstr ""
+
+#: includes/i18n-catalog.php:276
+msgid "Installs the free Astra theme from the official WordPress.org theme source and activates it when WordPress permissions allow it."
+msgstr ""
+
+#: includes/i18n-catalog.php:277
+msgid "Installs the free Blocksy theme from the official WordPress.org theme source and activates it when WordPress permissions allow it."
+msgstr ""
+
+#: includes/i18n-catalog.php:278
+msgid "Installs the free Contact Form 7 plugin from the official WordPress.org plugin source and activates it when WordPress permissions allow it."
+msgstr ""
+
+#: includes/i18n-catalog.php:279
+msgid "Installs the free Elementor plugin from the official WordPress.org plugin source and activates it when WordPress permissions allow it."
+msgstr ""
+
+#: includes/i18n-catalog.php:280
+msgid "Installs the free FluentSMTP plugin from the official WordPress.org plugin source and activates it when WordPress permissions allow it."
+msgstr ""
+
+#: includes/i18n-catalog.php:281
+msgid "Installs the free Hello Elementor theme from the official WordPress.org theme source and activates it when WordPress permissions allow it."
+msgstr ""
+
+#: includes/i18n-catalog.php:282
+msgid "Installs the free Kadence theme from the official WordPress.org theme source and activates it when WordPress permissions allow it."
+msgstr ""
+
+#: includes/i18n-catalog.php:283
+msgid "Installs the free Loco Translate plugin from the official WordPress.org plugin source and activates it when WordPress permissions allow it."
+msgstr ""
+
+#: includes/i18n-catalog.php:284
+msgid "Installs the free LocoAI – Auto Translate for Loco Translate plugin from the official WordPress.org plugin source and activates it when WordPress permissions allow it."
+msgstr ""
+
+#: includes/i18n-catalog.php:285
+msgid "Installs the free OceanWP theme from the official WordPress.org theme source and activates it when WordPress permissions allow it."
+msgstr ""
+
+#: includes/i18n-catalog.php:286
+msgid "Installs the free Site Kit by Google plugin from the official WordPress.org plugin source and activates it when WordPress permissions allow it."
+msgstr ""
+
+#: includes/i18n-catalog.php:287
+msgid "Installs the free WooCommerce plugin from the official WordPress.org plugin source and activates it when WordPress permissions allow it."
+msgstr ""
+
+#: includes/i18n-catalog.php:288
+msgid "Installs the free WPvivid Backup & Migration plugin from the official WordPress.org plugin source and activates it when WordPress permissions allow it."
+msgstr ""
+
+#: includes/i18n-catalog.php:289
+msgid "Installs the free Yoast Duplicate Post plugin from the official WordPress.org plugin source and activates it when WordPress permissions allow it."
+msgstr ""
+
+#: includes/i18n-catalog.php:290
+msgid "Installs the free Zakra theme from the official WordPress.org theme source and activates it when WordPress permissions allow it."
+msgstr ""
+
+#: includes/i18n-catalog.php:291
+msgid "Keeps playing while you work in WordPress. Move this browser window anywhere."
+msgstr ""
+
+#: includes/i18n-catalog.php:292
+msgid "Light"
+msgstr ""
+
+#: includes/i18n-catalog.php:293
+msgid "Live Status"
+msgstr ""
+
+#: includes/i18n-catalog.php:294
+msgid "Loco Translate"
+msgstr ""
+
+#: includes/i18n-catalog.php:295
+msgid "Main Configuration"
+msgstr ""
+
+#: includes/i18n-catalog.php:296
+msgid "Make About Page"
+msgstr ""
+
+#: includes/i18n-catalog.php:297
+msgid "Make Blog Page"
+msgstr ""
+
+#: includes/i18n-catalog.php:298
+msgid "Make Contact Page"
+msgstr ""
+
+#: includes/i18n-catalog.php:299
+msgid "Make FAQ Page"
+msgstr ""
+
+#: includes/i18n-catalog.php:300
+msgid "Make guide video smaller"
+msgstr ""
+
+#: includes/i18n-catalog.php:301
+msgid "Make Home Page"
+msgstr ""
+
+#: includes/i18n-catalog.php:302
+msgid "Make Pages"
+msgstr ""
+
+#: includes/i18n-catalog.php:303
+msgid "Make Portfolio Page"
+msgstr ""
+
+#: includes/i18n-catalog.php:304
+msgid "Make Pricing Page"
+msgstr ""
+
+#: includes/i18n-catalog.php:305
+msgid "Make Products Page"
+msgstr ""
+
+#: includes/i18n-catalog.php:306
+msgid "Make Services Page"
+msgstr ""
+
+#: includes/i18n-catalog.php:307
+msgid "Manage separate Turkish and English YouTube channels, welcome links, Dashboard guides, and command videos from one place. The current administrator language selects the matching video automatically, with fallback to the other language when needed."
+msgstr ""
+
+#: includes/i18n-catalog.php:308
+msgid "Manage the Dashboard welcome banner, welcome video, YouTube buttons, social links, and every command guide video from one place. These fields use the same demo lock, so they can all be made read-only before public release."
+msgstr ""
+
+#: includes/i18n-catalog.php:309
+msgid "Manage welcome panel and links"
+msgstr ""
+
+#: includes/i18n-catalog.php:310
+msgid "Media"
+msgstr ""
+
+#: includes/i18n-catalog.php:311
+msgid "Media Library"
+msgstr ""
+
+#: includes/i18n-catalog.php:312
+msgid "Media Library shortcuts."
+msgstr ""
+
+#: includes/i18n-catalog.php:313
+msgid "Menus"
+msgstr ""
+
+#: includes/i18n-catalog.php:314
+msgid "Message"
+msgstr ""
+
+#: includes/i18n-catalog.php:315
+msgid "Mini"
+msgstr ""
+
+#: includes/i18n-catalog.php:316
+msgid "Missing videos use the other language automatically."
+msgstr ""
+
+#: includes/i18n-catalog.php:317
+msgid "Name"
+msgstr ""
+
+#: includes/i18n-catalog.php:318
+msgid "Navigation request failed."
+msgstr ""
+
+#: includes/i18n-catalog.php:319
+msgid "New Blog Post"
+msgstr ""
+
+#: includes/i18n-catalog.php:320
+msgid "No banner selected"
+msgstr ""
+
+#: includes/i18n-catalog.php:321
+msgid "No commands found yet."
+msgstr ""
+
+#: includes/i18n-catalog.php:322
+msgid "No custom commands have been added yet."
+msgstr ""
+
+#: includes/i18n-catalog.php:323
+msgid "No default workflow categories were found in the bundled workflow file. Reinstall the plugin package to restore the default commands."
+msgstr ""
+
+#: includes/i18n-catalog.php:324
+msgid "Not installed"
+msgstr ""
+
+#: includes/i18n-catalog.php:325
+msgid "Notifications"
+msgstr ""
+
+#: includes/i18n-catalog.php:326
+msgid "Open"
+msgstr ""
+
+#: includes/i18n-catalog.php:327
+msgid "Open Add New Plugin"
+msgstr ""
+
+#: includes/i18n-catalog.php:328
+msgid "Open Add Page"
+msgstr ""
+
+#: includes/i18n-catalog.php:329
+msgid "Open Add Post"
+msgstr ""
+
+#: includes/i18n-catalog.php:330
+msgid "Open Add User"
+msgstr ""
+
+#: includes/i18n-catalog.php:331
+msgid "Open All Posts"
+msgstr ""
+
+#: includes/i18n-catalog.php:332
+msgid "Open All Users"
+msgstr ""
+
+#: includes/i18n-catalog.php:333
+msgid "Open Appearance"
+msgstr ""
+
+#: includes/i18n-catalog.php:334
+msgid "Open Available Tools"
+msgstr ""
+
+#: includes/i18n-catalog.php:335
+msgid "Open Categories"
+msgstr ""
+
+#: includes/i18n-catalog.php:336
+msgid "Open Comments"
+msgstr ""
+
+#: includes/i18n-catalog.php:337
+msgid "Open Customize"
+msgstr ""
+
+#: includes/i18n-catalog.php:338
+msgid "Open Customizer"
+msgstr ""
+
+#: includes/i18n-catalog.php:339
+msgid "Open Dashboard"
+msgstr ""
+
+#: includes/i18n-catalog.php:340
+msgid "Open Design"
+msgstr ""
+
+#: includes/i18n-catalog.php:341
+msgid "Open Discussion Settings"
+msgstr ""
+
+#: includes/i18n-catalog.php:342
+msgid "Open Erase Personal Data"
+msgstr ""
+
+#: includes/i18n-catalog.php:343
+msgid "Open Export"
+msgstr ""
+
+#: includes/i18n-catalog.php:344
+msgid "Open Export Personal Data"
+msgstr ""
+
+#: includes/i18n-catalog.php:345
+msgid "Open FB Software AI help and tutorial resources:"
+msgstr ""
+
+#: includes/i18n-catalog.php:346
+msgid "Open FB Software AI popup"
+msgstr ""
+
+#: includes/i18n-catalog.php:347
+msgid "Open FB Software AI Settings"
+msgstr ""
+
+#: includes/i18n-catalog.php:348
+msgid "Open floating guide video panel"
+msgstr ""
+
+#: includes/i18n-catalog.php:349
+msgid "Open Fonts"
+msgstr ""
+
+#: includes/i18n-catalog.php:350
+msgid "Open General Settings"
+msgstr ""
+
+#: includes/i18n-catalog.php:351
+msgid "Open guide video"
+msgstr ""
+
+#: includes/i18n-catalog.php:352
+msgid "Open Import"
+msgstr ""
+
+#: includes/i18n-catalog.php:353
+msgid "Open Installed Plugins"
+msgstr ""
+
+#: includes/i18n-catalog.php:354
+msgid "Open Media Library"
+msgstr ""
+
+#: includes/i18n-catalog.php:355
+msgid "Open Media Settings"
+msgstr ""
+
+#: includes/i18n-catalog.php:356
+msgid "Open Menus"
+msgstr ""
+
+#: includes/i18n-catalog.php:357
+msgid "Open Pages"
+msgstr ""
+
+#: includes/i18n-catalog.php:358
+msgid "Open panel player"
+msgstr ""
+
+#: includes/i18n-catalog.php:359
+msgid "Open Permalinks"
+msgstr ""
+
+#: includes/i18n-catalog.php:360
+msgid "Open Plugin File Editor"
+msgstr ""
+
+#: includes/i18n-catalog.php:361
+msgid "Open Plugins"
+msgstr ""
+
+#: includes/i18n-catalog.php:362
+msgid "Open Posts"
+msgstr ""
+
+#: includes/i18n-catalog.php:363
+msgid "Open Privacy Settings"
+msgstr ""
+
+#: includes/i18n-catalog.php:364
+msgid "Open Profile"
+msgstr ""
+
+#: includes/i18n-catalog.php:365
+msgid "Open Reading Settings"
+msgstr ""
+
+#: includes/i18n-catalog.php:366
+msgid "Open Settings"
+msgstr ""
+
+#: includes/i18n-catalog.php:367
+msgid "Open Settings / Install Theme"
+msgstr ""
+
+#: includes/i18n-catalog.php:368
+msgid "Open Site Health"
+msgstr ""
+
+#: includes/i18n-catalog.php:369
+msgid "Open Tags"
+msgstr ""
+
+#: includes/i18n-catalog.php:370
+msgid "Open the FluentSMTP settings and connect your mail sender before using website email forms."
+msgstr ""
+
+#: includes/i18n-catalog.php:371
+msgid "Open Theme File Editor"
+msgstr ""
+
+#: includes/i18n-catalog.php:372
+msgid "Open Themes"
+msgstr ""
+
+#: includes/i18n-catalog.php:373
+msgid "Open this drawer to install or activate the locked plugin setup tools from official WordPress.org sources."
+msgstr ""
+
+#: includes/i18n-catalog.php:374
+msgid "Open Upload Media"
+msgstr ""
+
+#: includes/i18n-catalog.php:375
+msgid "Open Users"
+msgstr ""
+
+#: includes/i18n-catalog.php:376
+msgid "Open Widgets"
+msgstr ""
+
+#: includes/i18n-catalog.php:377
+msgid "Open WooCommerce"
+msgstr ""
+
+#: includes/i18n-catalog.php:378
+msgid "Open WordPress Admin Page"
+msgstr ""
+
+#: includes/i18n-catalog.php:379
+msgid "Open WordPress Updates"
+msgstr ""
+
+#: includes/i18n-catalog.php:380
+msgid "Open Writing Settings"
+msgstr ""
+
+#: includes/i18n-catalog.php:381
+msgid "Opening the %s fallback video for %s."
+msgstr ""
+
+#: includes/i18n-catalog.php:382
+msgid "Opening the %s video for %s."
+msgstr ""
+
+#: includes/i18n-catalog.php:383
+msgid "Opens Appearance â†’ Customize."
+msgstr ""
+
+#: includes/i18n-catalog.php:384
+msgid "Opens Appearance â†’ Menus."
+msgstr ""
+
+#: includes/i18n-catalog.php:385
+msgid "Opens Appearance â†’ Theme File Editor."
+msgstr ""
+
+#: includes/i18n-catalog.php:386
+msgid "Opens Appearance â†’ Themes."
+msgstr ""
+
+#: includes/i18n-catalog.php:387
+msgid "Opens Appearance â†’ Widgets."
+msgstr ""
+
+#: includes/i18n-catalog.php:388
+msgid "Opens Dashboard â†’ Updates."
+msgstr ""
+
+#: includes/i18n-catalog.php:389
+msgid "Opens Media â†’ Add New."
+msgstr ""
+
+#: includes/i18n-catalog.php:390
+msgid "Opens Media â†’ Library."
+msgstr ""
+
+#: includes/i18n-catalog.php:391
+msgid "Opens Pages â†’ Add New."
+msgstr ""
+
+#: includes/i18n-catalog.php:392
+msgid "Opens Pages â†’ All Pages."
+msgstr ""
+
+#: includes/i18n-catalog.php:393
+msgid "Opens Plugins â†’ Add New."
+msgstr ""
+
+#: includes/i18n-catalog.php:394
+msgid "Opens Plugins â†’ Installed Plugins."
+msgstr ""
+
+#: includes/i18n-catalog.php:395
+msgid "Opens Plugins â†’ Plugin File Editor."
+msgstr ""
+
+#: includes/i18n-catalog.php:396
+msgid "Opens Posts â†’ Add New."
+msgstr ""
+
+#: includes/i18n-catalog.php:397
+msgid "Opens Posts â†’ All Posts."
+msgstr ""
+
+#: includes/i18n-catalog.php:398
+msgid "Opens Posts â†’ Categories."
+msgstr ""
+
+#: includes/i18n-catalog.php:399
+msgid "Opens Posts â†’ Tags."
+msgstr ""
+
+#: includes/i18n-catalog.php:400
+msgid "Opens Settings â†’ Discussion."
+msgstr ""
+
+#: includes/i18n-catalog.php:401
+msgid "Opens Settings â†’ General."
+msgstr ""
+
+#: includes/i18n-catalog.php:402
+msgid "Opens Settings â†’ Media."
+msgstr ""
+
+#: includes/i18n-catalog.php:403
+msgid "Opens Settings â†’ Permalinks."
+msgstr ""
+
+#: includes/i18n-catalog.php:404
+msgid "Opens Settings â†’ Privacy."
+msgstr ""
+
+#: includes/i18n-catalog.php:405
+msgid "Opens Settings â†’ Reading."
+msgstr ""
+
+#: includes/i18n-catalog.php:406
+msgid "Opens Settings â†’ Writing."
+msgstr ""
+
+#: includes/i18n-catalog.php:407
+msgid "Opens the WordPress design/fonts area when available."
+msgstr ""
+
+#: includes/i18n-catalog.php:408
+msgid "Opens the WordPress Page Editor so the user can add a custom heading/title and save the page manually. This command does not redirect after opening the editor."
+msgstr ""
+
+#: includes/i18n-catalog.php:409
+msgid "Opens the WordPress Site Editor / design area when available."
+msgstr ""
+
+#: includes/i18n-catalog.php:410
+msgid "Opens Tools â†’ Available Tools."
+msgstr ""
+
+#: includes/i18n-catalog.php:411
+msgid "Opens Tools â†’ Erase Personal Data."
+msgstr ""
+
+#: includes/i18n-catalog.php:412
+msgid "Opens Tools â†’ Export Personal Data."
+msgstr ""
+
+#: includes/i18n-catalog.php:413
+msgid "Opens Tools â†’ Export."
+msgstr ""
+
+#: includes/i18n-catalog.php:414
+msgid "Opens Tools â†’ Import."
+msgstr ""
+
+#: includes/i18n-catalog.php:415
+msgid "Opens Tools â†’ Site Health."
+msgstr ""
+
+#: includes/i18n-catalog.php:416
+msgid "Opens Users â†’ Add New."
+msgstr ""
+
+#: includes/i18n-catalog.php:417
+msgid "Opens Users â†’ All Users."
+msgstr ""
+
+#: includes/i18n-catalog.php:418
+msgid "Opens Users â†’ Profile."
+msgstr ""
+
+#: includes/i18n-catalog.php:419
+msgid "Opens WordPress Admin â†’ Comments."
+msgstr ""
+
+#: includes/i18n-catalog.php:420
+msgid "Opens WordPress Admin â†’ Dashboard."
+msgstr ""
+
+#: includes/i18n-catalog.php:421
+msgid "Optional"
+msgstr ""
+
+#: includes/i18n-catalog.php:422
+msgid "Optional but recommended for activation. Example: elementor/elementor.php"
+msgstr ""
+
+#: includes/i18n-catalog.php:423
+msgid "Overview"
+msgstr ""
+
+#: includes/i18n-catalog.php:424
+msgid "Page creation commands for the core website pages, plus a manual Add Page editor shortcut for custom headings."
+msgstr ""
+
+#: includes/i18n-catalog.php:425
+msgid "Page management shortcuts."
+msgstr ""
+
+#: includes/i18n-catalog.php:426
+msgid "Pages"
+msgstr ""
+
+#: includes/i18n-catalog.php:427
+msgid "Permalinks"
+msgstr ""
+
+#: includes/i18n-catalog.php:428
+msgid "Please choose a valid command type."
+msgstr ""
+
+#: includes/i18n-catalog.php:429
+msgid "Please confirm this action."
+msgstr ""
+
+#: includes/i18n-catalog.php:430
+msgid "Please enter a command label."
+msgstr ""
+
+#: includes/i18n-catalog.php:431
+msgid "Please enter a WordPress.org plugin slug."
+msgstr ""
+
+#: includes/i18n-catalog.php:432
+msgid "Please enter a WordPress.org theme slug."
+msgstr ""
+
+#: includes/i18n-catalog.php:433
+msgid "Please enter an admin path for this navigation command."
+msgstr ""
+
+#: includes/i18n-catalog.php:434
+msgid "Please enter only the WordPress admin path, not a full external URL."
+msgstr ""
+
+#: includes/i18n-catalog.php:435
+msgid "Plugin File Editor"
+msgstr ""
+
+#: includes/i18n-catalog.php:436
+msgid "Plugin installed, but the main plugin file could not be found for activation."
+msgstr ""
+
+#: includes/i18n-catalog.php:437
+msgid "Plugin installed, but you do not have permission to activate plugins."
+msgstr ""
+
+#: includes/i18n-catalog.php:438
+msgid "Plugin installer"
+msgstr ""
+
+#: includes/i18n-catalog.php:439
+msgid "Plugin Main File"
+msgstr ""
+
+#: includes/i18n-catalog.php:440
+msgid "Plugin management shortcuts."
+msgstr ""
+
+#: includes/i18n-catalog.php:441
+msgid "Plugin Slug"
+msgstr ""
+
+#: includes/i18n-catalog.php:442
+msgid "Plugin slug missing from command."
+msgstr ""
+
+#: includes/i18n-catalog.php:443
+msgid "Plugins"
+msgstr ""
+
+#: includes/i18n-catalog.php:444
+msgid "Portfolio"
+msgstr ""
+
+#: includes/i18n-catalog.php:445
+msgid "Post management shortcuts."
+msgstr ""
+
+#: includes/i18n-catalog.php:446
+msgid "Posts"
+msgstr ""
+
+#: includes/i18n-catalog.php:447
+msgid "Premium WordPress Setup Control Panel"
+msgstr ""
+
+#: includes/i18n-catalog.php:448
+msgid "Pricing"
+msgstr ""
+
+#: includes/i18n-catalog.php:449
+msgid "Privacy"
+msgstr ""
+
+#: includes/i18n-catalog.php:450
+msgid "Pro Level - shortcut command mode"
+msgstr ""
+
+#: includes/i18n-catalog.php:451
+msgid "Products"
+msgstr ""
+
+#: includes/i18n-catalog.php:452
+msgid "Profile"
+msgstr ""
+
+#: includes/i18n-catalog.php:453
+msgid "Protect and manage your website."
+msgstr ""
+
+#: includes/i18n-catalog.php:454
+msgid "Quick access to important screens."
+msgstr ""
+
+#: includes/i18n-catalog.php:455
+msgid "Reading"
+msgstr ""
+
+#: includes/i18n-catalog.php:456
+msgid "Ready. Click the button to continue."
+msgstr ""
+
+#: includes/i18n-catalog.php:457
+msgid "Recommended size: 1600 × 500 px or wider."
+msgstr ""
+
+#: includes/i18n-catalog.php:458
+msgid "Remove Banner"
+msgstr ""
+
+#: includes/i18n-catalog.php:459
+msgid "Required"
+msgstr ""
+
+#: includes/i18n-catalog.php:460
+msgid "Required plugin installer commands for FB Software AI setup. Selecting a plugin does not install it until the action button is clicked."
+msgstr ""
+
+#: includes/i18n-catalog.php:461
+msgid "Reset"
+msgstr ""
+
+#: includes/i18n-catalog.php:462
+msgid "Reset guide video position"
+msgstr ""
+
+#: includes/i18n-catalog.php:463
+msgid "Resize guide video"
+msgstr ""
+
+#: includes/i18n-catalog.php:464
+msgid "Save"
+msgstr ""
+
+#: includes/i18n-catalog.php:465
+msgid "Save Bilingual Video Links"
+msgstr ""
+
+#: includes/i18n-catalog.php:466
+msgid "Save Settings"
+msgstr ""
+
+#: includes/i18n-catalog.php:467
+msgid "Save time on repeated steps."
+msgstr ""
+
+#: includes/i18n-catalog.php:468
+msgid "Save Welcome & Video Links"
+msgstr ""
+
+#: includes/i18n-catalog.php:469
+msgid "Saved Commands"
+msgstr ""
+
+#: includes/i18n-catalog.php:470
+msgid "Security and productivity"
+msgstr ""
+
+#: includes/i18n-catalog.php:471
+msgid "Security First"
+msgstr ""
+
+#: includes/i18n-catalog.php:472
+msgid "Select a command to load its guide video."
+msgstr ""
+
+#: includes/i18n-catalog.php:473
+msgid "Select a command to see the guide video area."
+msgstr ""
+
+#: includes/i18n-catalog.php:474
+msgid "Select a workspace command to begin."
+msgstr ""
+
+#: includes/i18n-catalog.php:475
+msgid "Selected FB Software AI welcome banner"
+msgstr ""
+
+#: includes/i18n-catalog.php:476
+msgid "Services"
+msgstr ""
+
+#: includes/i18n-catalog.php:477
+msgid "Settings"
+msgstr ""
+
+#: includes/i18n-catalog.php:478
+msgid "Setup Alerts"
+msgstr ""
+
+#: includes/i18n-catalog.php:479
+msgid "Shared Social Profiles"
+msgstr ""
+
+#: includes/i18n-catalog.php:480
+msgid "Single Blog Post"
+msgstr ""
+
+#: includes/i18n-catalog.php:481
+msgid "Site Health"
+msgstr ""
+
+#: includes/i18n-catalog.php:482
+msgid "Site Kit by Google"
+msgstr ""
+
+#: includes/i18n-catalog.php:483
+msgid "Smart admin shortcuts"
+msgstr ""
+
+#: includes/i18n-catalog.php:484
+msgid "Social Profiles"
+msgstr ""
+
+#: includes/i18n-catalog.php:485
+msgid "Something went wrong."
+msgstr ""
+
+#: includes/i18n-catalog.php:486
+msgid "Something went wrong. Please try again."
+msgstr ""
+
+#: includes/i18n-catalog.php:487
+msgid "Start Building"
+msgstr ""
+
+#: includes/i18n-catalog.php:488
+msgid "Starter Level - show video guidance"
+msgstr ""
+
+#: includes/i18n-catalog.php:489
+msgid "Starter mode is prepared for tutorial videos. Pro mode is prepared for click-saving commands."
+msgstr ""
+
+#: includes/i18n-catalog.php:490
+msgid "Status"
+msgstr ""
+
+#: includes/i18n-catalog.php:491
+msgid "Step-by-Step Guides"
+msgstr ""
+
+#: includes/i18n-catalog.php:492
+msgid "Step-by-step video guides"
+msgstr ""
+
+#: includes/i18n-catalog.php:493
+msgid "Sub Category"
+msgstr ""
+
+#: includes/i18n-catalog.php:494
+msgid "Subscribe for new tutorials, plugin updates, and website-building tips."
+msgstr ""
+
+#: includes/i18n-catalog.php:495
+msgid "Subscribe on YouTube"
+msgstr ""
+
+#: includes/i18n-catalog.php:496
+msgid "Subscribe on YouTube Button"
+msgstr ""
+
+#: includes/i18n-catalog.php:497
+msgid "Support the Channel"
+msgstr ""
+
+#: includes/i18n-catalog.php:498
+msgid "Switch theme"
+msgstr ""
+
+#: includes/i18n-catalog.php:499
+msgid "Switch to %s theme"
+msgstr ""
+
+#: includes/i18n-catalog.php:500
+msgid "Switch to dark theme"
+msgstr ""
+
+#: includes/i18n-catalog.php:501
+msgid "Switch to light theme"
+msgstr ""
+
+#: includes/i18n-catalog.php:502
+msgid "Tags"
+msgstr ""
+
+#: includes/i18n-catalog.php:503
+msgid "The bundled workflow file could not be read. Reinstall the plugin package to restore the default commands."
+msgstr ""
+
+#: includes/i18n-catalog.php:504
+msgid "The bundled workflow file is invalid. Reinstall the plugin package to restore the default commands."
+msgstr ""
+
+#: includes/i18n-catalog.php:505
+msgid "The bundled workflow file is missing. Reinstall the plugin package to restore the default commands."
+msgstr ""
+
+#: includes/i18n-catalog.php:506
+msgid "Theme File Editor"
+msgstr ""
+
+#: includes/i18n-catalog.php:507
+msgid "Theme installed, but you do not have permission to activate themes."
+msgstr ""
+
+#: includes/i18n-catalog.php:508
+msgid "Theme installer"
+msgstr ""
+
+#: includes/i18n-catalog.php:509
+msgid "Theme installer commands for approved free WordPress themes. Selecting a theme does not install it until the action button is clicked."
+msgstr ""
+
+#: includes/i18n-catalog.php:510
+msgid "Theme Slug"
+msgstr ""
+
+#: includes/i18n-catalog.php:511
+msgid "Theme slug missing from command."
+msgstr ""
+
+#: includes/i18n-catalog.php:512
+msgid "Themes"
+msgstr ""
+
+#: includes/i18n-catalog.php:513
+msgid "These links are used when the current administrator uses this language."
+msgstr ""
+
+#: includes/i18n-catalog.php:514
+msgid "These non-YouTube profiles are shared by both languages."
+msgstr ""
+
+#: includes/i18n-catalog.php:515
+msgid "This command is locked into the plugin as a fixed setup action. It uses the official WordPress.org plugin listing and the WordPress plugin installer API, then activates Contact Form 7 Free when permissions allow it."
+msgstr ""
+
+#: includes/i18n-catalog.php:516
+msgid "This command is locked into the plugin as a fixed setup action. It uses the official WordPress.org plugin listing and the WordPress plugin installer API, then activates Elementor Free when permissions allow it."
+msgstr ""
+
+#: includes/i18n-catalog.php:517
+msgid "This command is locked into the plugin as a fixed setup action. It uses the official WordPress.org plugin listing and the WordPress plugin installer API, then activates FluentSMTP Free when permissions allow it."
+msgstr ""
+
+#: includes/i18n-catalog.php:518
+msgid "This command is locked into the plugin as a fixed setup action. It uses the official WordPress.org plugin listing and the WordPress plugin installer API, then activates Loco Translate Free when permissions allow it."
+msgstr ""
+
+#: includes/i18n-catalog.php:519
+msgid "This command is locked into the plugin as a fixed setup action. It uses the official WordPress.org plugin listing and the WordPress plugin installer API, then activates LocoAI – Auto Translate for Loco Translate Free when permissions allow it."
+msgstr ""
+
+#: includes/i18n-catalog.php:520
+msgid "This command is locked into the plugin as a fixed setup action. It uses the official WordPress.org plugin listing and the WordPress plugin installer API, then activates Site Kit by Google when permissions allow it."
+msgstr ""
+
+#: includes/i18n-catalog.php:521
+msgid "This command is locked into the plugin as a fixed setup action. It uses the official WordPress.org plugin listing and the WordPress plugin installer API, then activates WooCommerce Free when permissions allow it."
+msgstr ""
+
+#: includes/i18n-catalog.php:522
+msgid "This command is locked into the plugin as a fixed setup action. It uses the official WordPress.org plugin listing and the WordPress plugin installer API, then activates WPvivid Backup & Migration Free when permissions allow it."
+msgstr ""
+
+#: includes/i18n-catalog.php:523
+msgid "This command is locked into the plugin as a fixed setup action. It uses the official WordPress.org plugin listing and the WordPress plugin installer API, then activates Yoast Duplicate Post Free when permissions allow it."
+msgstr ""
+
+#: includes/i18n-catalog.php:524
+msgid "This command is locked into the plugin as a fixed setup action. It uses the official WordPress.org theme listing and the WordPress theme installer API, then activates Astra when permissions allow it."
+msgstr ""
+
+#: includes/i18n-catalog.php:525
+msgid "This command is locked into the plugin as a fixed setup action. It uses the official WordPress.org theme listing and the WordPress theme installer API, then activates Blocksy when permissions allow it."
+msgstr ""
+
+#: includes/i18n-catalog.php:526
+msgid "This command is locked into the plugin as a fixed setup action. It uses the official WordPress.org theme listing and the WordPress theme installer API, then activates Hello Elementor when permissions allow it."
+msgstr ""
+
+#: includes/i18n-catalog.php:527
+msgid "This command is locked into the plugin as a fixed setup action. It uses the official WordPress.org theme listing and the WordPress theme installer API, then activates Kadence when permissions allow it."
+msgstr ""
+
+#: includes/i18n-catalog.php:528
+msgid "This command is locked into the plugin as a fixed setup action. It uses the official WordPress.org theme listing and the WordPress theme installer API, then activates OceanWP when permissions allow it."
+msgstr ""
+
+#: includes/i18n-catalog.php:529
+msgid "This command is locked into the plugin as a fixed setup action. It uses the official WordPress.org theme listing and the WordPress theme installer API, then activates Zakra when permissions allow it."
+msgstr ""
+
+#: includes/i18n-catalog.php:530
+msgid "This command is not a content creation command."
+msgstr ""
+
+#: includes/i18n-catalog.php:531
+msgid "This command type cannot be run by AJAX yet."
+msgstr ""
+
+#: includes/i18n-catalog.php:532
+msgid "This guide"
+msgstr ""
+
+#: includes/i18n-catalog.php:533
+msgid "This guide will be available soon."
+msgstr ""
+
+#: includes/i18n-catalog.php:534
+msgid "This keeps the plugin ready for updateable future workflow presets."
+msgstr ""
+
+#: includes/i18n-catalog.php:535
+msgid "This page was created by FB Software AI. Edit it with WordPress or your page builder."
+msgstr ""
+
+#: includes/i18n-catalog.php:536
+msgid "This section has no commands yet."
+msgstr ""
+
+#: includes/i18n-catalog.php:537
+msgid "This section is complete."
+msgstr ""
+
+#: includes/i18n-catalog.php:538
+msgid "Title"
+msgstr ""
+
+#: includes/i18n-catalog.php:539
+msgid "Tools"
+msgstr ""
+
+#: includes/i18n-catalog.php:540
+msgid "Turkish"
+msgstr ""
+
+#: includes/i18n-catalog.php:541
+msgid "Turkish and English Welcome Links"
+msgstr ""
+
+#: includes/i18n-catalog.php:542
+msgid "Type"
+msgstr ""
+
+#: includes/i18n-catalog.php:543
+msgid "Upload Banner"
+msgstr ""
+
+#: includes/i18n-catalog.php:544
+msgid "Upload Media"
+msgstr ""
+
+#: includes/i18n-catalog.php:545
+msgid "URL"
+msgstr ""
+
+#: includes/i18n-catalog.php:546
+msgid "Use the WordPress Media Library. The image appears as the top Dashboard welcome banner."
+msgstr ""
+
+#: includes/i18n-catalog.php:547
+msgid "Use this banner"
+msgstr ""
+
+#: includes/i18n-catalog.php:548
+msgid "User Level"
+msgstr ""
+
+#: includes/i18n-catalog.php:549
+msgid "User management shortcuts."
+msgstr ""
+
+#: includes/i18n-catalog.php:550
+msgid "Users"
+msgstr ""
+
+#: includes/i18n-catalog.php:551
+msgid "Usually the same video watch URL"
+msgstr ""
+
+#: includes/i18n-catalog.php:552
+msgid "Version %s"
+msgstr ""
+
+#: includes/i18n-catalog.php:553
+msgid "Video"
+msgstr ""
+
+#: includes/i18n-catalog.php:554
+msgid "Video & Buttons"
+msgstr ""
+
+#: includes/i18n-catalog.php:555
+msgid "Video Languages"
+msgstr ""
+
+#: includes/i18n-catalog.php:556
+msgid "Video links are locked in this demo release."
+msgstr ""
+
+#: includes/i18n-catalog.php:557
+msgid "Videos used by the FB Software AI help-and-tutorials Dashboard widget."
+msgstr ""
+
+#: includes/i18n-catalog.php:558
+msgid "Videos used by the FB Software AI plugin-setup Dashboard widget."
+msgstr ""
+
+#: includes/i18n-catalog.php:559
+msgid "Videos used by the FB Software AI website-settings Dashboard widget."
+msgstr ""
+
+#: includes/i18n-catalog.php:560
+msgid "Videos used by the FB Software AI website-steps Dashboard widget."
+msgstr ""
+
+#: includes/i18n-catalog.php:561
+msgid "View Memberships"
+msgstr ""
+
+#: includes/i18n-catalog.php:562
+msgid "View Memberships Button"
+msgstr ""
+
+#: includes/i18n-catalog.php:563
+msgid "View on WordPress.org"
+msgstr ""
+
+#: includes/i18n-catalog.php:564
+msgid "Visibility"
+msgstr ""
+
+#: includes/i18n-catalog.php:565
+msgid "Watch on YouTube"
+msgstr ""
+
+#: includes/i18n-catalog.php:566
+msgid "Watch on YouTube Button"
+msgstr ""
+
+#: includes/i18n-catalog.php:567
+msgid "Website"
+msgstr ""
+
+#: includes/i18n-catalog.php:568
+msgid "Website Progress"
+msgstr ""
+
+#: includes/i18n-catalog.php:569
+msgid "Website Workflow"
+msgstr ""
+
+#: includes/i18n-catalog.php:570
+msgid "Welcome"
+msgstr ""
+
+#: includes/i18n-catalog.php:571
+msgid "Welcome Banner & YouTube"
+msgstr ""
+
+#: includes/i18n-catalog.php:572
+msgid "Welcome to FB Software AI"
+msgstr ""
+
+#: includes/i18n-catalog.php:573
+msgid "Welcome to FB Software AI!"
+msgstr ""
+
+#: includes/i18n-catalog.php:574
+msgid "Welcome video coming soon"
+msgstr ""
+
+#: includes/i18n-catalog.php:575
+msgid "Welcome Video Links"
+msgstr ""
+
+#: includes/i18n-catalog.php:576
+msgid "Welcome YouTube Video"
+msgstr ""
+
+#: includes/i18n-catalog.php:577
+msgid "Widget Category"
+msgstr ""
+
+#: includes/i18n-catalog.php:578
+msgid "Widget Setup"
+msgstr ""
+
+#: includes/i18n-catalog.php:579
+msgid "Widgets"
+msgstr ""
+
+#: includes/i18n-catalog.php:580
+msgid "WooCommerce"
+msgstr ""
+
+#: includes/i18n-catalog.php:581
+msgid "WordPress cannot deactivate the active theme without another installed theme to switch to."
+msgstr ""
+
+#: includes/i18n-catalog.php:582
+msgid "WordPress GPS Guide"
+msgstr ""
+
+#: includes/i18n-catalog.php:583
+msgid "WordPress settings shortcuts."
+msgstr ""
+
+#: includes/i18n-catalog.php:584
+msgid "WordPress tools shortcuts."
+msgstr ""
+
+#: includes/i18n-catalog.php:585
+msgid "WordPress Updates"
+msgstr ""
+
+#: includes/i18n-catalog.php:586
+msgid "WordPress.org did not return an official plugin download link."
+msgstr ""
+
+#: includes/i18n-catalog.php:587
+msgid "WordPress.org did not return an official theme download link."
+msgstr ""
+
+#: includes/i18n-catalog.php:588
+msgid "Work Smarter"
+msgstr ""
+
+#: includes/i18n-catalog.php:589
+msgid "Workflow unavailable"
+msgstr ""
+
+#: includes/i18n-catalog.php:590
+msgid "Working..."
+msgstr ""
+
+#: includes/i18n-catalog.php:591
+msgid "Workspace"
+msgstr ""
+
+#: includes/i18n-catalog.php:592
+msgid "Write your blog post here."
+msgstr ""
+
+#: includes/i18n-catalog.php:593
+msgid "Writing"
+msgstr ""
+
+#: includes/i18n-catalog.php:594
+msgid "X / Twitter"
+msgstr ""
+
+#: includes/i18n-catalog.php:595
+msgid "Yes deactivate"
+msgstr ""
+
+#: includes/i18n-catalog.php:596
+msgid "Yes, continue"
+msgstr ""
+
+#: includes/i18n-catalog.php:597
+msgid "Yoast Duplicate Post"
+msgstr ""
+
+#: includes/i18n-catalog.php:598
+msgid "You do not have permission to deactivate plugins."
+msgstr ""
+
+#: includes/i18n-catalog.php:599
+msgid "You do not have permission to deactivate themes."
+msgstr ""
+
+#: includes/i18n-catalog.php:600
+msgid "You do not have permission to install plugins."
+msgstr ""
+
+#: includes/i18n-catalog.php:601
+msgid "You do not have permission to install themes."
+msgstr ""
+
+#: includes/i18n-catalog.php:602
+msgid "You do not have permission to run this command."
+msgstr ""
+
+#: includes/i18n-catalog.php:603
+msgid "You do not have permission to uninstall plugins."
+msgstr ""
+
+#: includes/i18n-catalog.php:604
+msgid "You do not have permission to uninstall themes."
+msgstr ""
+
+#: includes/i18n-catalog.php:605
+msgid "You do not have permission to view status."
+msgstr ""
+
+#: includes/i18n-catalog.php:606
+msgid "Your WordPress setup assistant with step-by-step video guides, practical shortcuts, and clear website-building workflows."
+msgstr ""
+
+#: includes/i18n-catalog.php:607
+msgid "YouTube"
+msgstr ""
+
+#: includes/i18n-catalog.php:608
+msgid "YouTube Channel"
+msgstr ""
+
+#: includes/i18n-catalog.php:609
+msgid "✓ Installed"
+msgstr ""

@@ -1,0 +1,1231 @@
+/* FB Software AI settings page styles. */
+
+/* Settings page only - does not change the floating widget template. */
+.fbsa-settings-page .fbsa-custom-command-form {
+  max-width: 980px;
+  padding: 14px 18px;
+  border: 1px solid #dcdcde;
+  border-radius: 10px;
+  background: #fff;
+}
+
+.fbsa-settings-page .fbsa-inline-checkbox {
+  display: inline-block;
+  margin-left: 12px;
+}
+
+.fbsa-settings-page .fbsa-custom-command-table {
+  max-width: 980px;
+}
+
+.fbsa-settings-page .fbsa-inline-form {
+  margin: 0;
+}
+
+/* Settings page layout */
+.fbsa-settings-page {
+  --fbsa-bg: #f6f8fc;
+  --fbsa-card: #ffffff;
+  --fbsa-ink: #0f172a;
+  --fbsa-muted: #64748b;
+  --fbsa-border: rgba(15, 23, 42, 0.1);
+  --fbsa-blue: #2563eb;
+  --fbsa-purple: #7c3aed;
+  --fbsa-sky: #38bdf8;
+}
+
+.fbsa-settings-page .notice {
+  max-width: 1180px;
+  border-radius: 12px;
+}
+
+.fbsa-settings-shell {
+  max-width: 1180px;
+  margin-top: 22px;
+}
+
+.fbsa-settings-hero {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+  overflow: hidden;
+  padding: 34px;
+  border: 1px solid rgba(148, 163, 184, 0.18);
+  border-radius: 28px;
+  background: radial-gradient(circle at top left, rgba(56, 189, 248, 0.28), transparent 28%), radial-gradient(circle at 80% 10%, rgba(124, 58, 237, 0.22), transparent 28%), linear-gradient(135deg, #020617 0%, #0f172a 54%, #111827 100%);
+  box-shadow: 0 24px 70px rgba(15, 23, 42, 0.18);
+  color: #ffffff;
+}
+
+.fbsa-settings-hero h1 {
+  margin: 7px 0 10px;
+  max-width: 760px;
+  color: #ffffff;
+  font-size: clamp(30px, 4vw, 48px);
+  line-height: 1.04;
+  letter-spacing: -0.04em;
+}
+
+.fbsa-settings-hero p {
+  max-width: 760px;
+  margin: 0;
+  color: #cbd5e1;
+  font-size: 15px;
+  line-height: 1.7;
+}
+
+.fbsa-settings-eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  color: #60a5fa;
+  font-size: 11px;
+  font-weight: 900;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.fbsa-settings-hero__meta {
+  min-width: 170px;
+  align-self: stretch;
+  display: grid;
+  place-items: center;
+  padding: 22px;
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  border-radius: 24px;
+  background: rgba(15, 23, 42, 0.62);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.06);
+  text-align: center;
+}
+
+.fbsa-settings-hero__meta span,
+.fbsa-settings-hero__meta small {
+  color: #bfdbfe;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.fbsa-settings-hero__meta strong {
+  color: #ffffff;
+  font-size: 46px;
+  line-height: 1;
+}
+
+.fbsa-settings-grid {
+  display: grid;
+  gap: 18px;
+}
+
+.fbsa-settings-grid--top {
+  grid-template-columns: minmax(0, 1fr) 360px;
+  margin-top: 18px;
+}
+
+.fbsa-settings-card {
+  margin-top: 18px;
+  padding: 24px;
+  border: 1px solid var(--fbsa-border);
+  border-radius: 24px;
+  background: var(--fbsa-card);
+  box-shadow: 0 18px 46px rgba(15, 23, 42, 0.07);
+}
+
+.fbsa-settings-grid--top .fbsa-settings-card {
+  margin-top: 0;
+}
+
+.fbsa-settings-card__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  margin-bottom: 18px;
+}
+
+.fbsa-settings-card h2 {
+  margin: 4px 0 0;
+  color: var(--fbsa-ink);
+  font-size: 22px;
+  line-height: 1.2;
+}
+
+.fbsa-muted {
+  margin-top: -4px;
+  color: var(--fbsa-muted);
+  font-size: 14px;
+  line-height: 1.65;
+}
+
+.fbsa-field-grid,
+.fbsa-command-form-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+}
+
+.fbsa-command-form-grid {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.fbsa-field-card {
+  display: block;
+  margin: 0;
+  padding: 16px;
+  border: 1px solid rgba(148, 163, 184, 0.24);
+  border-radius: 18px;
+  background: linear-gradient(180deg, #ffffff 0%, #f8fafc 100%);
+}
+
+.fbsa-field-card span {
+  display: block;
+  margin-bottom: 8px;
+  color: #334155;
+  font-size: 12px;
+  font-weight: 900;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.fbsa-field-card small {
+  display: block;
+  margin-top: 8px;
+  color: var(--fbsa-muted);
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+.fbsa-field-card select,
+.fbsa-field-card input[type="text"],
+.fbsa-field-card input[type="url"],
+.fbsa-field-card textarea {
+  width: 100%;
+  max-width: none;
+  min-height: 42px;
+  border: 1px solid rgba(148, 163, 184, 0.38);
+  border-radius: 12px;
+  background: #ffffff;
+  color: #0f172a;
+  box-shadow: none;
+}
+
+.fbsa-field-card textarea {
+  min-height: 96px;
+}
+
+.fbsa-field-card--full {
+  margin-top: 16px;
+}
+
+.fbsa-field-card--checkbox .fbsa-inline-checkbox {
+  margin-left: 0;
+  color: #334155;
+  font-weight: 700;
+  text-transform: none;
+  letter-spacing: 0;
+}
+
+.fbsa-settings-actions {
+  margin: 18px 0 0;
+}
+
+.fbsa-settings-page .fbsa-premium-button,
+.fbsa-settings-page .button.fbsa-premium-button {
+  min-height: 42px;
+  padding: 0 20px;
+  border: 0;
+  border-radius: 13px;
+  background: linear-gradient(135deg, var(--fbsa-blue), var(--fbsa-purple));
+  box-shadow: 0 14px 28px rgba(37, 99, 235, 0.22);
+  color: #ffffff;
+  font-weight: 800;
+}
+
+.fbsa-settings-page .fbsa-secondary-button,
+.fbsa-settings-page .button.fbsa-secondary-button {
+  min-height: 40px;
+  padding: 0 16px;
+  border-color: rgba(37, 99, 235, 0.2);
+  border-radius: 13px;
+  background: #eff6ff;
+  color: #1d4ed8;
+  font-weight: 800;
+}
+
+.fbsa-status-list {
+  display: grid;
+  gap: 12px;
+}
+
+.fbsa-status-list div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px;
+  padding: 14px;
+  border: 1px solid rgba(148, 163, 184, 0.22);
+  border-radius: 16px;
+  background: #f8fafc;
+}
+
+.fbsa-status-list span {
+  color: var(--fbsa-muted);
+  font-size: 12px;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.fbsa-status-list strong {
+  color: #0f172a;
+  font-size: 13px;
+  text-align: right;
+}
+
+
+.fbsa-fixed-command-stack {
+  display: grid;
+  gap: 18px;
+}
+
+.fbsa-fixed-command-stack .fbsa-fixed-command-card {
+  margin-top: 18px;
+}
+
+.fbsa-fixed-command-card--plugin {
+  border-color: rgba(124, 58, 237, 0.18);
+  background: radial-gradient(circle at top left, rgba(124, 58, 237, 0.1), transparent 34%), #ffffff;
+}
+
+.fbsa-fixed-command-card {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 280px;
+  align-items: center;
+  gap: 24px;
+  border-color: rgba(37, 99, 235, 0.18);
+  background: radial-gradient(circle at top left, rgba(59, 130, 246, 0.1), transparent 34%), #ffffff;
+}
+
+.fbsa-fixed-command-card p {
+  max-width: 760px;
+  color: var(--fbsa-muted);
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.fbsa-command-pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 16px;
+}
+
+.fbsa-command-pills span {
+  display: inline-flex;
+  gap: 5px;
+  padding: 8px 11px;
+  border: 1px solid rgba(37, 99, 235, 0.14);
+  border-radius: 999px;
+  background: #eff6ff;
+  color: #1e3a8a;
+  font-size: 12px;
+  font-weight: 800;
+}
+
+.fbsa-fixed-command-card__actions {
+  display: grid;
+  justify-items: stretch;
+  gap: 12px;
+}
+
+.fbsa-fixed-command-card__actions .button,
+.fbsa-fixed-command-card__actions button {
+  width: 100%;
+  text-align: center;
+}
+
+.fbsa-settings-page .fbsa-custom-command-form {
+  max-width: none;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+}
+
+.fbsa-settings-page .fbsa-custom-command-table {
+  max-width: none;
+  overflow: hidden;
+  border-color: rgba(148, 163, 184, 0.28);
+  border-radius: 16px;
+}
+
+.fbsa-settings-page .fbsa-custom-command-table th {
+  color: #334155;
+  font-size: 12px;
+  font-weight: 900;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.fbsa-settings-footer-card {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 22px;
+}
+
+.fbsa-settings-footer-card p {
+  color: var(--fbsa-muted);
+  line-height: 1.6;
+}
+
+@media (max-width: 1100px) {
+  .fbsa-settings-grid--top,
+  .fbsa-fixed-command-card,
+  .fbsa-settings-footer-card {
+    grid-template-columns: 1fr;
+  }
+
+  .fbsa-command-form-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+
+@media (max-width: 782px) {
+  .fbsa-settings-hero {
+    display: block;
+    padding: 24px;
+  }
+
+  .fbsa-settings-hero__meta {
+    margin-top: 18px;
+  }
+
+  .fbsa-field-grid,
+  .fbsa-command-form-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Custom command panel */
+.fbsa-settings-page .fbsa-custom-command-toggle-row {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 18px;
+}
+
+.fbsa-settings-page .fbsa-custom-command-toggle {
+  min-width: 180px;
+}
+
+.fbsa-settings-page .fbsa-custom-command-form[hidden] {
+  display: none !important;
+}
+
+.fbsa-settings-page .fbsa-custom-command-form--open {
+  margin-top: 22px;
+  animation: fbsaPanelOpen 180ms ease-out;
+}
+
+@keyframes fbsaPanelOpen {
+  from {
+    opacity: 0;
+    transform: translateY(-8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+/* Theme and plugin installer panels */
+.fbsa-settings-page .fbsa-install-drawer {
+  margin-top: 18px;
+}
+
+.fbsa-settings-page .fbsa-drawer-header {
+  align-items: center;
+  gap: 18px;
+}
+
+.fbsa-settings-page .fbsa-drawer-header .fbsa-muted {
+  max-width: 760px;
+  margin: 8px 0 0;
+}
+
+
+.fbsa-settings-page .fbsa-install-panel[hidden] {
+  display: none !important;
+}
+
+.fbsa-settings-page .fbsa-install-panel--open {
+  margin-top: 22px;
+  animation: fbsaPanelOpen 180ms ease-out;
+}
+
+.fbsa-settings-page .fbsa-install-panel .fbsa-fixed-command-stack {
+  gap: 18px;
+}
+
+.fbsa-settings-page .fbsa-install-panel .fbsa-fixed-command-stack .fbsa-fixed-command-card {
+  margin-top: 0;
+}
+
+.fbsa-settings-page .fbsa-installed-button,
+.fbsa-settings-page .fbsa-installed-button:disabled,
+.fbsa-settings-page .fbsa-installed-button[disabled] {
+  background: linear-gradient(135deg, #10b981, #059669) !important;
+  border: 0 !important;
+  color: #ffffff !important;
+  cursor: default !important;
+  opacity: 1 !important;
+  box-shadow: 0 12px 24px rgba(16, 185, 129, 0.22) !important;
+  text-shadow: none !important;
+}
+
+.fbsa-settings-page .fbsa-installed-button::before {
+  content: "✓";
+  margin-right: 7px;
+  font-weight: 800;
+}
+
+
+@media (max-width: 782px) {
+  .fbsa-settings-page .fbsa-drawer-header {
+    align-items: flex-start;
+  }
+
+}
+
+
+/* Action controls and notification center */
+.fbsa-settings-page .fbsa-notification-center {
+  border: 1px solid rgba(59, 130, 246, 0.18);
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.98), rgba(245, 248, 255, 0.96));
+  box-shadow: 0 18px 46px rgba(15, 23, 42, 0.08);
+}
+
+.fbsa-settings-page .fbsa-postback-notices {
+  display: grid;
+  gap: 12px;
+  margin-bottom: 14px;
+}
+
+.fbsa-settings-page .fbsa-postback-notices .notice {
+  margin: 0;
+  border-radius: 16px;
+  border-left-width: 5px;
+  padding: 12px 16px;
+  background: #ffffff;
+  box-shadow: 0 12px 30px rgba(15, 23, 42, 0.08);
+}
+
+.fbsa-settings-page .fbsa-postback-notices .notice p {
+  margin: 0;
+  font-weight: 700;
+}
+
+.fbsa-settings-page .fbsa-fluent-notice {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 18px;
+  padding: 18px;
+  border: 1px solid rgba(245, 158, 11, 0.32);
+  border-radius: 18px;
+  background: linear-gradient(135deg, #fff8ed, #ffffff);
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.72);
+}
+
+.fbsa-settings-page .fbsa-fluent-notice strong {
+  display: block;
+  color: #0f172a;
+  font-size: 15px;
+  margin-bottom: 5px;
+}
+
+.fbsa-settings-page .fbsa-fluent-notice p {
+  margin: 0;
+  color: #526071;
+}
+
+.fbsa-settings-page .fbsa-card-action-form {
+  display: grid;
+  gap: 10px;
+  min-width: 220px;
+}
+
+.fbsa-settings-page .fbsa-deactivate-button,
+.fbsa-settings-page .button.fbsa-deactivate-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 42px;
+  border: 0 !important;
+  border-radius: 14px !important;
+  background: linear-gradient(135deg, #020617, #111827) !important;
+  color: #ffffff !important;
+  font-weight: 800;
+  box-shadow: 0 14px 26px rgba(2, 6, 23, 0.25);
+}
+
+.fbsa-settings-page .fbsa-deactivate-button:hover,
+.fbsa-settings-page .button.fbsa-deactivate-button:hover {
+  transform: translateY(-1px);
+  color: #ffffff !important;
+  box-shadow: 0 18px 32px rgba(2, 6, 23, 0.32);
+}
+
+.fbsa-settings-page .fbsa-uninstall-button,
+.fbsa-settings-page .button.fbsa-uninstall-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 42px;
+  border: 1px solid rgba(239, 68, 68, 0.28) !important;
+  border-radius: 14px !important;
+  background: linear-gradient(135deg, #fff1f2, #ffffff) !important;
+  color: #b91c1c !important;
+  font-weight: 800;
+  box-shadow: 0 12px 24px rgba(185, 28, 28, 0.08);
+}
+
+.fbsa-settings-page .fbsa-uninstall-button:hover,
+.fbsa-settings-page .button.fbsa-uninstall-button:hover {
+  transform: translateY(-1px);
+  color: #991b1b !important;
+  border-color: rgba(239, 68, 68, 0.45) !important;
+  box-shadow: 0 16px 28px rgba(185, 28, 28, 0.14);
+}
+
+.fbsa-settings-page .fbsa-installed-button,
+.fbsa-settings-page .fbsa-installed-button:disabled,
+.fbsa-settings-page .fbsa-installed-button[disabled] {
+  min-height: 42px;
+  border-radius: 14px !important;
+}
+
+@media (max-width: 782px) {
+  .fbsa-settings-page .fbsa-fluent-notice {
+    align-items: stretch;
+    flex-direction: column;
+  }
+  .fbsa-settings-page .fbsa-card-action-form {
+    min-width: 0;
+  }
+}
+
+
+/* Confirmation modal and alert placement */
+.fbsa-settings-page .fbsa-settings-hero .notice,
+.fbsa-settings-page .fbsa-settings-hero .fbsa-fluent-notice,
+.fbsa-settings-page .fbsa-settings-hero .fbsa-postback-notices,
+.fbsa-settings-page .fbsa-settings-hero .fbsa-notification-center {
+  display: none !important;
+}
+
+.fbsa-settings-page #fbsa-setup-alerts {
+  margin-top: 22px;
+}
+
+.fbsa-confirm-modal[hidden] {
+  display: none !important;
+}
+
+.fbsa-confirm-modal {
+  position: fixed;
+  inset: 0;
+  z-index: 100000;
+  display: grid;
+  place-items: center;
+  padding: 24px;
+}
+
+.fbsa-confirm-modal__backdrop {
+  position: absolute;
+  inset: 0;
+  background: rgba(2, 6, 23, 0.66);
+  backdrop-filter: blur(6px);
+}
+
+.fbsa-confirm-modal__dialog {
+  position: relative;
+  width: min(460px, 100%);
+  padding: 26px;
+  border: 1px solid rgba(148, 163, 184, 0.22);
+  border-radius: 24px;
+  background: linear-gradient(135deg, #ffffff, #f8fbff);
+  box-shadow: 0 28px 80px rgba(2, 6, 23, 0.35);
+}
+
+.fbsa-confirm-modal__dialog h2 {
+  margin: 7px 0 10px;
+  color: #0f172a;
+  font-size: 24px;
+  line-height: 1.1;
+}
+
+.fbsa-confirm-modal__dialog p {
+  margin: 0;
+  color: #475569;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.fbsa-confirm-modal__actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  margin-top: 22px;
+}
+
+body.fbsa-confirm-modal-open {
+  overflow: hidden;
+}
+
+@media (max-width: 520px) {
+  .fbsa-confirm-modal__actions {
+    flex-direction: column-reverse;
+  }
+  .fbsa-confirm-modal__actions .button {
+    width: 100%;
+    justify-content: center;
+  }
+}
+
+
+/* Backend subcategory controls */
+.fbsa-subcategory-field {
+  margin-top: 10px;
+}
+
+.fbsa-subcategory-field[hidden] {
+  display: none !important;
+}
+
+/* Installed-item visibility helpers */
+
+
+/* Completion message presentation */
+.fbsa-command-message--complete {
+  margin-top: 14px;
+  padding: 13px 14px;
+  border: 1px solid rgba(34, 197, 94, 0.22);
+  background: linear-gradient(135deg, rgba(15, 23, 42, 0.72), rgba(22, 101, 52, 0.22));
+  color: #dcfce7;
+  font-weight: 700;
+  line-height: 1.55;
+}
+
+#fbsa-floating-widget .fbsa-select option.fbsa-complete-option,
+#fbsa-floating-widget .fbsa-select option:disabled.fbsa-complete-option {
+  color: #dcfce7 !important;
+  background-color: #0f172a !important;
+  padding: 10px 12px !important;
+}
+
+/* Categorized guide video link manager */
+.fbsa-video-link-manager__header {
+  align-items: flex-start;
+}
+
+.fbsa-video-category-stack,
+.fbsa-video-subcategory-stack {
+  display: grid;
+  gap: 14px;
+}
+
+.fbsa-video-category,
+.fbsa-video-subcategory {
+  overflow: hidden;
+  border: 1px solid rgba(148, 163, 184, 0.24);
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.78);
+  box-shadow: 0 10px 30px rgba(15, 23, 42, 0.06);
+}
+
+.fbsa-video-category__summary,
+.fbsa-video-subcategory__summary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 16px 18px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.fbsa-video-category__summary::-webkit-details-marker,
+.fbsa-video-subcategory__summary::-webkit-details-marker {
+  display: none;
+}
+
+.fbsa-video-category__summary::before,
+.fbsa-video-subcategory__summary::before {
+  content: '+';
+  display: inline-grid;
+  place-items: center;
+  flex: 0 0 24px;
+  width: 24px;
+  height: 24px;
+  border-radius: 999px;
+  background: linear-gradient(135deg, #2563eb, #7c3aed);
+  color: #ffffff;
+  font-weight: 800;
+  line-height: 1;
+}
+
+.fbsa-video-category[open] > .fbsa-video-category__summary::before,
+.fbsa-video-subcategory[open] > .fbsa-video-subcategory__summary::before {
+  content: '−';
+}
+
+.fbsa-video-category__summary > span,
+.fbsa-video-subcategory__summary > strong {
+  min-width: 0;
+  flex: 1;
+}
+
+.fbsa-video-category__summary strong,
+.fbsa-video-subcategory__summary strong {
+  display: block;
+  color: #0f172a;
+  font-size: 15px;
+  line-height: 1.25;
+}
+
+.fbsa-video-category__summary small {
+  display: block;
+  margin-top: 4px;
+  color: #64748b;
+  font-size: 12px;
+  line-height: 1.45;
+}
+
+.fbsa-video-category__summary em,
+.fbsa-video-subcategory__summary em {
+  flex: 0 0 auto;
+  padding: 5px 10px;
+  border-radius: 999px;
+  background: #eef2ff;
+  color: #4338ca;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 800;
+}
+
+.fbsa-video-category__body {
+  display: grid;
+  gap: 14px;
+  padding: 0 18px 18px;
+}
+
+.fbsa-video-subcategory {
+  background: #f8fafc;
+  box-shadow: none;
+}
+
+.fbsa-video-subcategory__summary {
+  padding: 14px 16px;
+}
+
+.fbsa-video-command-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+}
+
+.fbsa-video-link-field {
+  display: grid;
+  gap: 7px;
+  padding: 12px;
+  border: 1px solid rgba(148, 163, 184, 0.22);
+  border-radius: 14px;
+  background: #ffffff;
+}
+
+.fbsa-video-link-field span {
+  color: #0f172a;
+  font-size: 12px;
+  font-weight: 800;
+  line-height: 1.35;
+}
+
+.fbsa-video-link-field input[type="url"] {
+  width: 100%;
+  max-width: none;
+  min-height: 38px;
+  border-radius: 10px;
+}
+
+.fbsa-video-link-actions {
+  position: sticky;
+  bottom: 16px;
+  z-index: 2;
+  margin: 18px 0 0;
+  padding: 14px;
+  border: 1px solid rgba(148, 163, 184, 0.22);
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 0.92);
+  box-shadow: 0 18px 45px rgba(15, 23, 42, 0.13);
+}
+
+@media (max-width: 960px) {
+  .fbsa-video-command-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+
+
+/* Top-level settings navigation. */
+.fbsa-settings-tabs {
+  position: sticky;
+  top: 32px;
+  z-index: 40;
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 8px;
+  margin: 18px 0 22px;
+  padding: 8px;
+  border: 1px solid rgba(148, 163, 184, 0.18);
+  border-radius: 18px;
+  background: rgba(10, 18, 34, 0.92);
+  box-shadow: 0 18px 45px rgba(2, 6, 23, 0.28);
+  backdrop-filter: blur(16px);
+}
+
+.fbsa-settings-tab {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  min-height: 46px;
+  margin: 0;
+  padding: 10px 12px;
+  border: 1px solid transparent;
+  border-radius: 13px;
+  color: #aebbd0;
+  background: transparent;
+  font: inherit;
+  font-size: 13px;
+  font-weight: 800;
+  cursor: pointer;
+  transition: transform 160ms ease, color 160ms ease, background 160ms ease, border-color 160ms ease, box-shadow 160ms ease;
+}
+
+.fbsa-settings-tab .dashicons {
+  width: 18px;
+  height: 18px;
+  font-size: 18px;
+  line-height: 18px;
+}
+
+.fbsa-settings-tab:hover,
+.fbsa-settings-tab:focus-visible {
+  color: #ffffff;
+  border-color: rgba(147, 197, 253, 0.18);
+  background: rgba(37, 99, 235, 0.12);
+  outline: none;
+}
+
+.fbsa-settings-tab.is-active {
+  color: #ffffff;
+  border-color: rgba(147, 197, 253, 0.28);
+  background: linear-gradient(135deg, #3454db 0%, #7c3aed 100%);
+  box-shadow: 0 12px 25px rgba(52, 84, 219, 0.28);
+  transform: translateY(-1px);
+}
+
+.fbsa-settings-tab-panel[hidden] {
+  display: none !important;
+}
+
+.fbsa-settings-tab-panel.is-active {
+  animation: fbsaSettingsPanelIn 220ms ease both;
+}
+
+.fbsa-settings-tab-panel > .fbsa-settings-card:first-child,
+.fbsa-settings-tab-panel > .fbsa-settings-grid:first-child {
+  margin-top: 0;
+}
+
+@keyframes fbsaSettingsPanelIn {
+  from { opacity: 0; transform: translateY(6px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@media (max-width: 960px) {
+  .fbsa-settings-tabs {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 600px) {
+  .fbsa-settings-tabs {
+    top: 46px;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .fbsa-settings-tab {
+    justify-content: flex-start;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .fbsa-settings-tab,
+  .fbsa-settings-tab-panel.is-active {
+    animation: none !important;
+    transition: none !important;
+  }
+}
+
+/* Locked public-demo guide video links. */
+.fbsa-settings-page .fbsa-video-link-field input[type="url"][readonly] {
+  cursor: text;
+  background: #f8fafc;
+  color: #334155;
+  border-color: rgba(99, 102, 241, 0.24);
+  box-shadow: inset 0 0 0 1px rgba(99, 102, 241, 0.04);
+}
+
+.fbsa-settings-page .fbsa-video-links-locked {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  margin-top: 18px;
+  padding: 15px 16px;
+  border: 1px solid rgba(99, 102, 241, 0.22);
+  border-radius: 16px;
+  background: linear-gradient(135deg, #eef2ff, #ffffff);
+  color: #334155;
+}
+
+.fbsa-settings-page .fbsa-video-links-locked .dashicons {
+  flex: 0 0 auto;
+  width: 22px;
+  height: 22px;
+  color: #4f46e5;
+  font-size: 22px;
+}
+
+.fbsa-settings-page .fbsa-video-links-locked strong {
+  display: block;
+  color: #0f172a;
+  font-size: 14px;
+}
+
+.fbsa-settings-page .fbsa-video-links-locked p {
+  margin: 4px 0 0;
+  color: #64748b;
+  line-height: 1.5;
+}
+
+
+/* Dashboard welcome panel settings inside Guide Videos. */
+.fbsa-welcome-settings-category {
+  border-color: rgba(190, 24, 93, 0.20);
+  background: linear-gradient(135deg, rgba(255, 247, 251, 0.94), rgba(250, 245, 255, 0.94));
+}
+
+.fbsa-welcome-settings-body {
+  gap: 22px;
+}
+
+.fbsa-welcome-banner-settings {
+  display: grid;
+  grid-template-columns: minmax(280px, 1.25fr) minmax(240px, 0.75fr);
+  gap: 18px;
+  padding: 16px;
+  border: 1px solid rgba(148, 163, 184, 0.22);
+  border-radius: 16px;
+  background: #ffffff;
+}
+
+.fbsa-welcome-banner-preview {
+  position: relative;
+  display: grid;
+  place-items: center;
+  min-height: 190px;
+  overflow: hidden;
+  border: 1px dashed rgba(124, 58, 237, 0.34);
+  border-radius: 14px;
+  background: linear-gradient(135deg, #fff0f7, #f4e9ff 52%, #55136f);
+  text-align: center;
+}
+
+.fbsa-welcome-banner-preview img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  min-height: 190px;
+  object-fit: cover;
+}
+
+.fbsa-welcome-banner-preview.is-empty {
+  align-content: center;
+  gap: 7px;
+  padding: 24px;
+  color: #4c1d95;
+}
+
+.fbsa-welcome-banner-preview.is-empty .dashicons {
+  width: 46px;
+  height: 46px;
+  font-size: 46px;
+}
+
+.fbsa-welcome-banner-preview.is-empty strong {
+  font-size: 16px;
+}
+
+.fbsa-welcome-banner-preview.is-empty small {
+  color: #7c3aed;
+}
+
+.fbsa-welcome-banner-controls {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.fbsa-welcome-banner-controls p {
+  flex-basis: 100%;
+  margin: 3px 0 0;
+  color: #64748b;
+  line-height: 1.5;
+}
+
+.fbsa-welcome-link-section {
+  display: grid;
+  gap: 12px;
+}
+
+.fbsa-welcome-link-section .fbsa-settings-card__header {
+  margin: 0;
+}
+
+.fbsa-welcome-link-section h3 {
+  margin: 3px 0 0;
+  color: #0f172a;
+  font-size: 18px;
+}
+
+@media (max-width: 900px) {
+  .fbsa-welcome-banner-settings {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Bilingual YouTube and command video fields. */
+.fbsa-video-language-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+}
+
+.fbsa-video-language-card {
+  overflow: hidden;
+  border: 1px solid rgba(99, 102, 241, 0.22);
+  border-radius: 16px;
+  background: #ffffff;
+}
+
+.fbsa-video-language-card__header {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 15px 16px;
+  border-bottom: 1px solid rgba(148, 163, 184, 0.2);
+  background: linear-gradient(135deg, rgba(238, 242, 255, 0.92), rgba(250, 245, 255, 0.92));
+}
+
+.fbsa-video-language-card__header h4 {
+  margin: 0 0 4px;
+  color: #0f172a;
+  font-size: 15px;
+}
+
+.fbsa-video-language-card__header p {
+  margin: 0;
+  color: #64748b;
+  font-size: 12px;
+  line-height: 1.45;
+}
+
+.fbsa-video-language-badge {
+  display: inline-grid;
+  place-items: center;
+  flex: 0 0 38px;
+  width: 38px;
+  height: 38px;
+  border-radius: 12px;
+  background: linear-gradient(135deg, #2563eb, #7c3aed);
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 900;
+}
+
+.fbsa-video-language-card__fields {
+  display: grid;
+  gap: 10px;
+  padding: 14px;
+}
+
+.fbsa-bilingual-video-field {
+  gap: 10px;
+}
+
+.fbsa-bilingual-video-field__title {
+  font-size: 13px !important;
+}
+
+.fbsa-bilingual-video-field__languages {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px;
+}
+
+.fbsa-bilingual-video-field__languages label {
+  display: grid;
+  gap: 6px;
+  min-width: 0;
+}
+
+.fbsa-bilingual-video-field__languages label > span {
+  color: #475569;
+  font-size: 11px;
+  font-weight: 700;
+}
+
+.fbsa-bilingual-video-field__languages label > span b {
+  display: inline-block;
+  margin-right: 4px;
+  padding: 2px 5px;
+  border-radius: 6px;
+  background: #eef2ff;
+  color: #4338ca;
+  font-size: 10px;
+}
+
+@media (max-width: 1100px) {
+  .fbsa-video-language-grid,
+  .fbsa-bilingual-video-field__languages {
+    grid-template-columns: 1fr;
+  }
+}
+
+.fbsa-video-active-language {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  margin: 10px 0 0;
+  padding: 8px 11px;
+  border: 1px solid rgba(37, 99, 235, 0.18);
+  border-radius: 999px;
+  background: #eff6ff;
+  color: #1e3a8a;
+  font-size: 12px;
+}

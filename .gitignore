@@ -1,0 +1,49 @@
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+
+# WordPress/local environment data
+wp-config.php
+wp-content/uploads/
+wp-content/cache/
+wp-content/upgrade/
+*.sql
+*.sqlite
+*.db
+
+# Logs and reports containing local paths
+*.log
+debug.log
+
+# Backups and generated packages
+local-backups/
+backups/
+*.zip
+*.tar
+*.tar.gz
+*.7z
+*.bak
+*.backup
+
+# Dependencies and caches
+node_modules/
+vendor/
+.cache/
+.pytest_cache/
+__pycache__/
+*.pyc
+
+# IDE and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Git metadata must never be nested in upload packages
+.git/
