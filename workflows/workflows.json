@@ -1,0 +1,887 @@
+{
+  "version": "0.1.139",
+  "placeholder": "Start Building",
+  "categories": [
+    {
+      "id": "install_wordpress_theme",
+      "label": "Install WordPress Theme",
+      "description": "Theme installer commands for approved free WordPress themes. Selecting a theme does not install it until the action button is clicked.",
+      "commands": [
+        {
+          "id": "install_kadence_theme",
+          "label": "Install Kadence Theme",
+          "type": "install_theme",
+          "themeSlug": "kadence",
+          "activate": true,
+          "buttonLabel": "Install Kadence Theme",
+          "message": "Installs the free Kadence theme from the official WordPress.org theme source and activates it when WordPress permissions allow it.",
+          "videoUrl": "https://www.youtube.com/watch?v=Cdo03EajVGU",
+          "officialUrl": "https://wordpress.org/themes/kadence/",
+          "fixed": true,
+          "hideWhenInstalled": true,
+          "videoTitle": "Guide: FB Software AI tutorial",
+          "videoNote": "Guide video selected for this command. Update it in FB Software AI settings if you want to use a different tutorial."
+        },
+        {
+          "id": "install_hello_elementor_theme",
+          "label": "Install Hello Elementor Theme",
+          "type": "install_theme",
+          "themeSlug": "hello-elementor",
+          "activate": true,
+          "buttonLabel": "Install Hello Elementor Theme",
+          "message": "Installs the free Hello Elementor theme from the official WordPress.org theme source and activates it when WordPress permissions allow it.",
+          "videoUrl": "https://www.youtube.com/watch?v=Cdo03EajVGU",
+          "officialUrl": "https://wordpress.org/themes/hello-elementor/",
+          "fixed": true,
+          "hideWhenInstalled": true,
+          "videoTitle": "Guide: FB Software AI tutorial",
+          "videoNote": "Guide video selected for this command. Update it in FB Software AI settings if you want to use a different tutorial."
+        },
+        {
+          "id": "install_astra_theme",
+          "label": "Install Astra Theme",
+          "type": "install_theme",
+          "themeSlug": "astra",
+          "activate": true,
+          "officialUrl": "https://wordpress.org/themes/astra/",
+          "buttonLabel": "Install Astra Theme",
+          "message": "Installs the free Astra theme from the official WordPress.org theme source and activates it when WordPress permissions allow it.",
+          "hideWhenInstalled": true,
+          "fixed": true,
+          "videoUrl": "https://www.youtube.com/watch?v=Cdo03EajVGU",
+          "videoTitle": "Guide: FB Software AI tutorial",
+          "videoNote": "Guide video selected for this command. Update it in FB Software AI settings if you want to use a different tutorial."
+        },
+        {
+          "id": "install_oceanwp_theme",
+          "label": "Install OceanWP Theme",
+          "type": "install_theme",
+          "themeSlug": "oceanwp",
+          "activate": true,
+          "officialUrl": "https://wordpress.org/themes/oceanwp/",
+          "buttonLabel": "Install OceanWP Theme",
+          "message": "Installs the free OceanWP theme from the official WordPress.org theme source and activates it when WordPress permissions allow it.",
+          "hideWhenInstalled": true,
+          "fixed": true,
+          "videoUrl": "https://www.youtube.com/watch?v=Cdo03EajVGU",
+          "videoTitle": "Guide: FB Software AI tutorial",
+          "videoNote": "Guide video selected for this command. Update it in FB Software AI settings if you want to use a different tutorial."
+        },
+        {
+          "id": "install_blocksy_theme",
+          "label": "Install Blocksy Theme",
+          "type": "install_theme",
+          "themeSlug": "blocksy",
+          "activate": true,
+          "officialUrl": "https://wordpress.org/themes/blocksy/",
+          "buttonLabel": "Install Blocksy Theme",
+          "message": "Installs the free Blocksy theme from the official WordPress.org theme source and activates it when WordPress permissions allow it.",
+          "hideWhenInstalled": true,
+          "fixed": true,
+          "videoUrl": "https://www.youtube.com/watch?v=Cdo03EajVGU",
+          "videoTitle": "Guide: FB Software AI tutorial",
+          "videoNote": "Guide video selected for this command. Update it in FB Software AI settings if you want to use a different tutorial."
+        },
+        {
+          "id": "install_zakra_theme",
+          "label": "Install Zakra Theme",
+          "type": "install_theme",
+          "themeSlug": "zakra",
+          "activate": true,
+          "officialUrl": "https://wordpress.org/themes/zakra/",
+          "buttonLabel": "Install Zakra Theme",
+          "message": "Installs the free Zakra theme from the official WordPress.org theme source and activates it when WordPress permissions allow it.",
+          "hideWhenInstalled": true,
+          "fixed": true,
+          "videoUrl": "https://www.youtube.com/watch?v=Cdo03EajVGU",
+          "videoTitle": "Guide: FB Software AI tutorial",
+          "videoNote": "Guide video selected for this command. Update it in FB Software AI settings if you want to use a different tutorial."
+        }
+      ]
+    },
+    {
+      "id": "install_required_plugins",
+      "label": "Install Required Plugins",
+      "description": "Required plugin installer commands for FB Software AI setup. Selecting a plugin does not install it until the action button is clicked.",
+      "commands": [
+        {
+          "id": "install_elementor_plugin",
+          "label": "Install Elementor Plugin",
+          "type": "install_plugin",
+          "pluginSlug": "elementor",
+          "pluginFile": "elementor/elementor.php",
+          "activate": true,
+          "buttonLabel": "Install Elementor Plugin",
+          "message": "Installs the free Elementor plugin from the official WordPress.org plugin source and activates it when WordPress permissions allow it.",
+          "videoUrl": "https://www.youtube.com/watch?v=FSvzxNtFjeM",
+          "officialUrl": "https://wordpress.org/plugins/elementor/",
+          "fixed": true,
+          "hideWhenInstalled": true,
+          "videoTitle": "Guide: FB Software AI tutorial",
+          "videoNote": "Guide video selected for this command. Update it in FB Software AI settings if you want to use a different tutorial."
+        },
+        {
+          "id": "install_site_kit_plugin",
+          "label": "Install Site Kit by Google Plugin",
+          "type": "install_plugin",
+          "pluginSlug": "google-site-kit",
+          "pluginFile": "google-site-kit/google-site-kit.php",
+          "activate": true,
+          "buttonLabel": "Install Site Kit by Google Plugin",
+          "message": "Installs the free Site Kit by Google plugin from the official WordPress.org plugin source and activates it when WordPress permissions allow it.",
+          "videoUrl": "https://www.youtube.com/watch?v=FSvzxNtFjeM",
+          "officialUrl": "https://wordpress.org/plugins/google-site-kit/",
+          "fixed": true,
+          "hideWhenInstalled": true,
+          "videoTitle": "Guide: FB Software AI tutorial",
+          "videoNote": "Guide video selected for this command. Update it in FB Software AI settings if you want to use a different tutorial."
+        },
+        {
+          "id": "install_fluentsmtp_plugin",
+          "label": "Install FluentSMTP Plugin",
+          "type": "install_plugin",
+          "pluginSlug": "fluent-smtp",
+          "pluginFile": "fluent-smtp/fluent-smtp.php",
+          "activate": true,
+          "buttonLabel": "Install FluentSMTP Plugin",
+          "message": "Installs the free FluentSMTP plugin from the official WordPress.org plugin source and activates it when WordPress permissions allow it.",
+          "videoUrl": "https://www.youtube.com/watch?v=FSvzxNtFjeM",
+          "officialUrl": "https://wordpress.org/plugins/fluent-smtp/",
+          "fixed": true,
+          "hideWhenInstalled": true,
+          "videoTitle": "Guide: FB Software AI tutorial",
+          "videoNote": "Guide video selected for this command. Update it in FB Software AI settings if you want to use a different tutorial."
+        },
+        {
+          "id": "install_duplicate_post_plugin",
+          "label": "Install Yoast Duplicate Post Plugin",
+          "type": "install_plugin",
+          "pluginSlug": "duplicate-post",
+          "pluginFile": "duplicate-post/duplicate-post.php",
+          "activate": true,
+          "buttonLabel": "Install Yoast Duplicate Post Plugin",
+          "message": "Installs the free Yoast Duplicate Post plugin from the official WordPress.org plugin source and activates it when WordPress permissions allow it.",
+          "videoUrl": "https://www.youtube.com/watch?v=FSvzxNtFjeM",
+          "officialUrl": "https://wordpress.org/plugins/duplicate-post/",
+          "fixed": true,
+          "hideWhenInstalled": true,
+          "videoTitle": "Guide: FB Software AI tutorial",
+          "videoNote": "Guide video selected for this command. Update it in FB Software AI settings if you want to use a different tutorial."
+        },
+        {
+          "id": "install_contact_form_7_plugin",
+          "label": "Install Contact Form 7 Plugin",
+          "type": "install_plugin",
+          "pluginSlug": "contact-form-7",
+          "pluginFile": "contact-form-7/wp-contact-form-7.php",
+          "activate": true,
+          "buttonLabel": "Install Contact Form 7 Plugin",
+          "message": "Installs the free Contact Form 7 plugin from the official WordPress.org plugin source and activates it when WordPress permissions allow it.",
+          "videoUrl": "https://www.youtube.com/watch?v=FSvzxNtFjeM",
+          "officialUrl": "https://wordpress.org/plugins/contact-form-7/",
+          "fixed": true,
+          "hideWhenInstalled": true,
+          "videoTitle": "Guide: FB Software AI tutorial",
+          "videoNote": "Guide video selected for this command. Update it in FB Software AI settings if you want to use a different tutorial."
+        },
+        {
+          "id": "install_loco_translate_plugin",
+          "label": "Install Loco Translate Plugin",
+          "type": "install_plugin",
+          "pluginSlug": "loco-translate",
+          "pluginFile": "loco-translate/loco.php",
+          "activate": true,
+          "buttonLabel": "Install Loco Translate Plugin",
+          "message": "Installs the free Loco Translate plugin from the official WordPress.org plugin source and activates it when WordPress permissions allow it.",
+          "videoUrl": "https://www.youtube.com/watch?v=FSvzxNtFjeM",
+          "officialUrl": "https://wordpress.org/plugins/loco-translate/",
+          "fixed": true,
+          "hideWhenInstalled": true,
+          "videoTitle": "Guide: FB Software AI tutorial",
+          "videoNote": "Guide video selected for this command. Update it in FB Software AI settings if you want to use a different tutorial."
+        },
+        {
+          "id": "install_locoai_plugin",
+          "label": "Install LocoAI Plugin",
+          "type": "install_plugin",
+          "pluginSlug": "automatic-translator-addon-for-loco-translate",
+          "pluginFile": "automatic-translator-addon-for-loco-translate/automatic-translator-addon-for-loco-translate.php",
+          "activate": true,
+          "buttonLabel": "Install LocoAI Plugin",
+          "message": "Installs the free LocoAI – Auto Translate for Loco Translate plugin from the official WordPress.org plugin source and activates it when WordPress permissions allow it.",
+          "videoUrl": "https://www.youtube.com/watch?v=FSvzxNtFjeM",
+          "officialUrl": "https://wordpress.org/plugins/automatic-translator-addon-for-loco-translate/",
+          "fixed": true,
+          "hideWhenInstalled": true,
+          "videoTitle": "Guide: FB Software AI tutorial",
+          "videoNote": "Guide video selected for this command. Update it in FB Software AI settings if you want to use a different tutorial."
+        },
+        {
+          "id": "install_woocommerce_plugin",
+          "label": "Install WooCommerce Plugin",
+          "type": "install_plugin",
+          "pluginSlug": "woocommerce",
+          "pluginFile": "woocommerce/woocommerce.php",
+          "activate": true,
+          "buttonLabel": "Install WooCommerce Plugin",
+          "message": "Installs the free WooCommerce plugin from the official WordPress.org plugin source and activates it when WordPress permissions allow it.",
+          "videoUrl": "https://www.youtube.com/watch?v=FSvzxNtFjeM",
+          "officialUrl": "https://wordpress.org/plugins/woocommerce/",
+          "fixed": true,
+          "hideWhenInstalled": true,
+          "videoTitle": "Guide: FB Software AI tutorial",
+          "videoNote": "Guide video selected for this command. Update it in FB Software AI settings if you want to use a different tutorial."
+        },
+        {
+          "id": "install_wpvivid_plugin",
+          "label": "Install WPvivid Plugin",
+          "type": "install_plugin",
+          "pluginSlug": "wpvivid-backuprestore",
+          "pluginFile": "wpvivid-backuprestore/wpvivid-backuprestore.php",
+          "activate": true,
+          "buttonLabel": "Install WPvivid Plugin",
+          "message": "Installs the free WPvivid Backup & Migration plugin from the official WordPress.org plugin source and activates it when WordPress permissions allow it.",
+          "videoUrl": "https://www.youtube.com/watch?v=FSvzxNtFjeM",
+          "officialUrl": "https://wordpress.org/plugins/wpvivid-backuprestore/",
+          "fixed": true,
+          "hideWhenInstalled": true,
+          "videoTitle": "Guide: FB Software AI tutorial",
+          "videoNote": "Guide video selected for this command. Update it in FB Software AI settings if you want to use a different tutorial."
+        }
+      ]
+    },
+    {
+      "id": "make_pages",
+      "label": "Make Pages",
+      "description": "Page creation commands for the core website pages, plus a manual Add Page editor shortcut for custom headings.",
+      "commands": [
+        {
+          "id": "make_home_page",
+          "label": "Make Home Page",
+          "type": "create_page",
+          "title": "Home",
+          "slug": "home",
+          "assign": "front_page",
+          "buttonLabel": "Create Home Page",
+          "hideWhenExists": true,
+          "message": "Creates a published Home page, assigns it as the WordPress homepage, then returns to Pages.",
+          "videoUrl": "https://www.youtube.com/watch?v=Cdo03EajVGU",
+          "videoTitle": "Guide: FB Software AI tutorial",
+          "videoNote": "Guide video selected for this command. Update it in FB Software AI settings if you want to use a different tutorial."
+        },
+        {
+          "id": "make_blog_page",
+          "label": "Make Blog Page",
+          "type": "create_page",
+          "title": "Blog",
+          "slug": "blog",
+          "assign": "posts_page",
+          "buttonLabel": "Create Blog Page",
+          "hideWhenExists": true,
+          "message": "Creates a published Blog page, assigns it as the WordPress posts page, then returns to Pages.",
+          "videoUrl": "https://www.youtube.com/watch?v=Cdo03EajVGU",
+          "videoTitle": "Guide: FB Software AI tutorial",
+          "videoNote": "Guide video selected for this command. Update it in FB Software AI settings if you want to use a different tutorial."
+        },
+        {
+          "id": "make_about_page",
+          "label": "Make About Page",
+          "type": "create_page",
+          "title": "About",
+          "slug": "about",
+          "buttonLabel": "Create About Page",
+          "hideWhenExists": true,
+          "message": "Creates a published About page, then returns to Pages.",
+          "videoUrl": "https://www.youtube.com/watch?v=Cdo03EajVGU",
+          "videoTitle": "Guide: FB Software AI tutorial",
+          "videoNote": "Guide video selected for this command. Update it in FB Software AI settings if you want to use a different tutorial."
+        },
+        {
+          "id": "make_contact_page",
+          "label": "Make Contact Page",
+          "type": "create_page",
+          "title": "Contact",
+          "slug": "contact",
+          "buttonLabel": "Create Contact Page",
+          "hideWhenExists": true,
+          "message": "Creates a published Contact page, then returns to Pages.",
+          "videoUrl": "https://www.youtube.com/watch?v=Cdo03EajVGU",
+          "videoTitle": "Guide: FB Software AI tutorial",
+          "videoNote": "Guide video selected for this command. Update it in FB Software AI settings if you want to use a different tutorial."
+        },
+        {
+          "id": "make_services_page",
+          "label": "Make Services Page",
+          "type": "create_page",
+          "title": "Services",
+          "slug": "services",
+          "buttonLabel": "Create Services Page",
+          "hideWhenExists": true,
+          "message": "Creates a published Services page, then returns to Pages.",
+          "videoUrl": "https://www.youtube.com/watch?v=Cdo03EajVGU",
+          "videoTitle": "Guide: FB Software AI tutorial",
+          "videoNote": "Guide video selected for this command. Update it in FB Software AI settings if you want to use a different tutorial."
+        },
+        {
+          "id": "make_products_page",
+          "label": "Make Products Page",
+          "type": "create_page",
+          "title": "Products",
+          "slug": "products",
+          "buttonLabel": "Create Products Page",
+          "hideWhenExists": true,
+          "message": "Creates a published Products page, then returns to Pages.",
+          "videoUrl": "https://www.youtube.com/watch?v=Cdo03EajVGU",
+          "videoTitle": "Guide: FB Software AI tutorial",
+          "videoNote": "Guide video selected for this command. Update it in FB Software AI settings if you want to use a different tutorial."
+        },
+        {
+          "id": "make_pricing_page",
+          "label": "Make Pricing Page",
+          "type": "create_page",
+          "title": "Pricing",
+          "slug": "pricing",
+          "buttonLabel": "Create Pricing Page",
+          "hideWhenExists": true,
+          "message": "Creates a published Pricing page, then returns to Pages.",
+          "videoUrl": "https://www.youtube.com/watch?v=Cdo03EajVGU",
+          "videoTitle": "Guide: FB Software AI tutorial",
+          "videoNote": "Guide video selected for this command. Update it in FB Software AI settings if you want to use a different tutorial."
+        },
+        {
+          "id": "make_portfolio_page",
+          "label": "Make Portfolio Page",
+          "type": "create_page",
+          "title": "Portfolio",
+          "slug": "portfolio",
+          "buttonLabel": "Create Portfolio Page",
+          "hideWhenExists": true,
+          "message": "Creates a published Portfolio page, then returns to Pages.",
+          "videoUrl": "https://www.youtube.com/watch?v=Cdo03EajVGU",
+          "videoTitle": "Guide: FB Software AI tutorial",
+          "videoNote": "Guide video selected for this command. Update it in FB Software AI settings if you want to use a different tutorial."
+        },
+        {
+          "id": "make_faq_page",
+          "label": "Make FAQ Page",
+          "type": "create_page",
+          "title": "FAQ",
+          "slug": "faq",
+          "buttonLabel": "Create FAQ Page",
+          "hideWhenExists": true,
+          "message": "Creates a published FAQ page, then returns to Pages.",
+          "videoUrl": "https://www.youtube.com/watch?v=Cdo03EajVGU",
+          "videoTitle": "Guide: FB Software AI tutorial",
+          "videoNote": "Guide video selected for this command. Update it in FB Software AI settings if you want to use a different tutorial."
+        },
+        {
+          "id": "add_page_custom_heading",
+          "label": "Add Page",
+          "type": "navigate",
+          "adminPath": "post-new.php?post_type=page",
+          "buttonLabel": "Add Page",
+          "message": "Opens the WordPress Page Editor so the user can add a custom heading/title and save the page manually. This command does not redirect after opening the editor.",
+          "videoUrl": "https://www.youtube.com/watch?v=Cdo03EajVGU",
+          "videoTitle": "Guide: FB Software AI tutorial",
+          "videoNote": "Guide video selected for this command. Update it in FB Software AI settings if you want to use a different tutorial."
+        }
+      ]
+    },
+    {
+      "id": "backend_wordpress_panel",
+      "label": "Backend WordPress Panel",
+      "description": "Expanded WordPress backend panel shortcuts. These commands only redirect the admin to WordPress backend screens when the action button is clicked.",
+      "commands": [],
+      "subcategories": [
+        {
+          "id": "dashboard",
+          "label": "Dashboard",
+          "description": "Dashboard shortcuts.",
+          "commands": [
+            {
+              "id": "dashboard_home",
+              "label": "Dashboard",
+              "type": "navigate",
+              "adminPath": "index.php",
+              "buttonLabel": "Open Dashboard",
+              "message": "Opens WordPress Admin â†’ Dashboard.",
+              "videoUrl": "https://www.youtube.com/watch?v=Cdo03EajVGU",
+              "videoTitle": "Guide: FB Software AI tutorial",
+              "videoNote": "Guide video selected for this command. Update it in FB Software AI settings if you want to use a different tutorial."
+            },
+            {
+              "id": "wordpress_updates",
+              "label": "WordPress Updates",
+              "type": "navigate",
+              "adminPath": "update-core.php",
+              "buttonLabel": "Open WordPress Updates",
+              "message": "Opens Dashboard â†’ Updates.",
+              "videoUrl": "https://www.youtube.com/watch?v=Cdo03EajVGU",
+              "videoTitle": "Guide: FB Software AI tutorial",
+              "videoNote": "Guide video selected for this command. Update it in FB Software AI settings if you want to use a different tutorial."
+            }
+          ]
+        },
+        {
+          "id": "posts",
+          "label": "Posts",
+          "description": "Post management shortcuts.",
+          "commands": [
+            {
+              "id": "all_posts",
+              "label": "All Posts",
+              "type": "navigate",
+              "adminPath": "edit.php",
+              "buttonLabel": "Open All Posts",
+              "message": "Opens Posts â†’ All Posts.",
+              "videoUrl": "https://www.youtube.com/watch?v=Cdo03EajVGU",
+              "videoTitle": "Guide: FB Software AI tutorial",
+              "videoNote": "Guide video selected for this command. Update it in FB Software AI settings if you want to use a different tutorial."
+            },
+            {
+              "id": "single_blog_post",
+              "label": "Single Blog Post",
+              "description": "Create and publish a new blog post, then return to the Posts list.",
+              "type": "create_post",
+              "title": "New Blog Post",
+              "postStatus": "publish",
+              "buttonLabel": "Create Blog Post",
+              "message": "Click Create Blog Post to publish a new post. The plugin will return you to the Posts list.",
+              "videoUrl": "https://www.youtube.com/watch?v=ysz5S6PUM-U"
+            },
+            {
+              "id": "add_post",
+              "label": "Add Post",
+              "type": "navigate",
+              "adminPath": "post-new.php",
+              "buttonLabel": "Open Add Post",
+              "message": "Opens Posts â†’ Add New.",
+              "videoUrl": "https://www.youtube.com/watch?v=Cdo03EajVGU",
+              "videoTitle": "Guide: FB Software AI tutorial",
+              "videoNote": "Guide video selected for this command. Update it in FB Software AI settings if you want to use a different tutorial."
+            },
+            {
+              "id": "post_categories",
+              "label": "Categories",
+              "type": "navigate",
+              "adminPath": "edit-tags.php?taxonomy=category",
+              "buttonLabel": "Open Categories",
+              "message": "Opens Posts â†’ Categories.",
+              "videoUrl": "https://www.youtube.com/watch?v=Cdo03EajVGU",
+              "videoTitle": "Guide: FB Software AI tutorial",
+              "videoNote": "Guide video selected for this command. Update it in FB Software AI settings if you want to use a different tutorial."
+            },
+            {
+              "id": "post_tags",
+              "label": "Tags",
+              "type": "navigate",
+              "adminPath": "edit-tags.php?taxonomy=post_tag",
+              "buttonLabel": "Open Tags",
+              "message": "Opens Posts â†’ Tags.",
+              "videoUrl": "https://www.youtube.com/watch?v=Cdo03EajVGU",
+              "videoTitle": "Guide: FB Software AI tutorial",
+              "videoNote": "Guide video selected for this command. Update it in FB Software AI settings if you want to use a different tutorial."
+            }
+          ]
+        },
+        {
+          "id": "media_library",
+          "label": "Media Library",
+          "description": "Media Library shortcuts.",
+          "commands": [
+            {
+              "id": "media_library",
+              "label": "Media Library",
+              "type": "navigate",
+              "adminPath": "upload.php",
+              "buttonLabel": "Open Media Library",
+              "message": "Opens Media â†’ Library.",
+              "videoUrl": "https://www.youtube.com/watch?v=Cdo03EajVGU",
+              "videoTitle": "Guide: FB Software AI tutorial",
+              "videoNote": "Guide video selected for this command. Update it in FB Software AI settings if you want to use a different tutorial."
+            },
+            {
+              "id": "upload_media",
+              "label": "Upload Media",
+              "type": "navigate",
+              "adminPath": "media-new.php",
+              "buttonLabel": "Open Upload Media",
+              "message": "Opens Media â†’ Add New.",
+              "videoUrl": "https://www.youtube.com/watch?v=Cdo03EajVGU",
+              "videoTitle": "Guide: FB Software AI tutorial",
+              "videoNote": "Guide video selected for this command. Update it in FB Software AI settings if you want to use a different tutorial."
+            }
+          ]
+        },
+        {
+          "id": "pages",
+          "label": "Pages",
+          "description": "Page management shortcuts.",
+          "commands": [
+            {
+              "id": "all_pages",
+              "label": "Pages",
+              "type": "navigate",
+              "adminPath": "edit.php?post_type=page",
+              "buttonLabel": "Open Pages",
+              "message": "Opens Pages â†’ All Pages.",
+              "videoUrl": "https://www.youtube.com/watch?v=Cdo03EajVGU",
+              "videoTitle": "Guide: FB Software AI tutorial",
+              "videoNote": "Guide video selected for this command. Update it in FB Software AI settings if you want to use a different tutorial."
+            },
+            {
+              "id": "add_page",
+              "label": "Add Page",
+              "type": "navigate",
+              "adminPath": "post-new.php?post_type=page",
+              "buttonLabel": "Open Add Page",
+              "message": "Opens Pages â†’ Add New.",
+              "videoUrl": "https://www.youtube.com/watch?v=Cdo03EajVGU",
+              "videoTitle": "Guide: FB Software AI tutorial",
+              "videoNote": "Guide video selected for this command. Update it in FB Software AI settings if you want to use a different tutorial."
+            }
+          ]
+        },
+        {
+          "id": "comments",
+          "label": "Comments",
+          "description": "Comment management shortcut.",
+          "commands": [
+            {
+              "id": "comments",
+              "label": "Comments",
+              "type": "navigate",
+              "adminPath": "edit-comments.php",
+              "buttonLabel": "Open Comments",
+              "message": "Opens WordPress Admin â†’ Comments.",
+              "videoUrl": "https://www.youtube.com/watch?v=Cdo03EajVGU",
+              "videoTitle": "Guide: FB Software AI tutorial",
+              "videoNote": "Guide video selected for this command. Update it in FB Software AI settings if you want to use a different tutorial."
+            }
+          ]
+        },
+        {
+          "id": "appearance",
+          "label": "Appearance",
+          "description": "Appearance panel shortcuts.",
+          "commands": [
+            {
+              "id": "appearance_themes",
+              "label": "Themes",
+              "type": "navigate",
+              "adminPath": "themes.php",
+              "buttonLabel": "Open Themes",
+              "message": "Opens Appearance â†’ Themes.",
+              "videoUrl": "https://www.youtube.com/watch?v=Cdo03EajVGU",
+              "videoTitle": "Guide: FB Software AI tutorial",
+              "videoNote": "Guide video selected for this command. Update it in FB Software AI settings if you want to use a different tutorial."
+            },
+            {
+              "id": "appearance_design",
+              "label": "Design",
+              "type": "navigate",
+              "adminPath": "site-editor.php",
+              "buttonLabel": "Open Design",
+              "message": "Opens the WordPress Site Editor / design area when available.",
+              "videoUrl": "https://www.youtube.com/watch?v=Cdo03EajVGU",
+              "videoTitle": "Guide: FB Software AI tutorial",
+              "videoNote": "Guide video selected for this command. Update it in FB Software AI settings if you want to use a different tutorial."
+            },
+            {
+              "id": "appearance_customize",
+              "label": "Customize",
+              "type": "navigate",
+              "adminPath": "customize.php",
+              "buttonLabel": "Open Customize",
+              "message": "Opens Appearance â†’ Customize.",
+              "videoUrl": "https://www.youtube.com/watch?v=Cdo03EajVGU",
+              "videoTitle": "Guide: FB Software AI tutorial",
+              "videoNote": "Guide video selected for this command. Update it in FB Software AI settings if you want to use a different tutorial."
+            },
+            {
+              "id": "appearance_widgets",
+              "label": "Widgets",
+              "type": "navigate",
+              "adminPath": "widgets.php",
+              "buttonLabel": "Open Widgets",
+              "message": "Opens Appearance â†’ Widgets.",
+              "videoUrl": "https://www.youtube.com/watch?v=Cdo03EajVGU",
+              "videoTitle": "Guide: FB Software AI tutorial",
+              "videoNote": "Guide video selected for this command. Update it in FB Software AI settings if you want to use a different tutorial."
+            },
+            {
+              "id": "appearance_fonts",
+              "label": "Fonts",
+              "type": "navigate",
+              "adminPath": "site-editor.php?path=%2Fwp_global_styles",
+              "buttonLabel": "Open Fonts",
+              "message": "Opens the WordPress design/fonts area when available.",
+              "videoUrl": "https://www.youtube.com/watch?v=Cdo03EajVGU",
+              "videoTitle": "Guide: FB Software AI tutorial",
+              "videoNote": "Guide video selected for this command. Update it in FB Software AI settings if you want to use a different tutorial."
+            },
+            {
+              "id": "appearance_menus",
+              "label": "Menus",
+              "type": "navigate",
+              "adminPath": "nav-menus.php",
+              "buttonLabel": "Open Menus",
+              "message": "Opens Appearance â†’ Menus.",
+              "videoUrl": "https://www.youtube.com/watch?v=Cdo03EajVGU",
+              "videoTitle": "Guide: FB Software AI tutorial",
+              "videoNote": "Guide video selected for this command. Update it in FB Software AI settings if you want to use a different tutorial."
+            },
+            {
+              "id": "appearance_theme_file_editor",
+              "label": "Theme File Editor",
+              "type": "navigate",
+              "adminPath": "theme-editor.php",
+              "buttonLabel": "Open Theme File Editor",
+              "message": "Opens Appearance â†’ Theme File Editor.",
+              "videoUrl": "https://www.youtube.com/watch?v=Cdo03EajVGU",
+              "videoTitle": "Guide: FB Software AI tutorial",
+              "videoNote": "Guide video selected for this command. Update it in FB Software AI settings if you want to use a different tutorial."
+            }
+          ]
+        },
+        {
+          "id": "plugins",
+          "label": "Plugins",
+          "description": "Plugin management shortcuts.",
+          "commands": [
+            {
+              "id": "installed_plugins",
+              "label": "Installed Plugins",
+              "type": "navigate",
+              "adminPath": "plugins.php",
+              "buttonLabel": "Open Installed Plugins",
+              "message": "Opens Plugins â†’ Installed Plugins.",
+              "videoUrl": "https://www.youtube.com/watch?v=Cdo03EajVGU",
+              "videoTitle": "Guide: FB Software AI tutorial",
+              "videoNote": "Guide video selected for this command. Update it in FB Software AI settings if you want to use a different tutorial."
+            },
+            {
+              "id": "add_new_plugin",
+              "label": "Add New Plugin",
+              "type": "navigate",
+              "adminPath": "plugin-install.php",
+              "buttonLabel": "Open Add New Plugin",
+              "message": "Opens Plugins â†’ Add New.",
+              "videoUrl": "https://www.youtube.com/watch?v=Cdo03EajVGU",
+              "videoTitle": "Guide: FB Software AI tutorial",
+              "videoNote": "Guide video selected for this command. Update it in FB Software AI settings if you want to use a different tutorial."
+            },
+            {
+              "id": "plugin_file_editor",
+              "label": "Plugin File Editor",
+              "type": "navigate",
+              "adminPath": "plugin-editor.php",
+              "buttonLabel": "Open Plugin File Editor",
+              "message": "Opens Plugins â†’ Plugin File Editor.",
+              "videoUrl": "https://www.youtube.com/watch?v=Cdo03EajVGU",
+              "videoTitle": "Guide: FB Software AI tutorial",
+              "videoNote": "Guide video selected for this command. Update it in FB Software AI settings if you want to use a different tutorial."
+            }
+          ]
+        },
+        {
+          "id": "users",
+          "label": "Users",
+          "description": "User management shortcuts.",
+          "commands": [
+            {
+              "id": "all_users",
+              "label": "All Users",
+              "type": "navigate",
+              "adminPath": "users.php",
+              "buttonLabel": "Open All Users",
+              "message": "Opens Users â†’ All Users.",
+              "videoUrl": "https://www.youtube.com/watch?v=Cdo03EajVGU",
+              "videoTitle": "Guide: FB Software AI tutorial",
+              "videoNote": "Guide video selected for this command. Update it in FB Software AI settings if you want to use a different tutorial."
+            },
+            {
+              "id": "add_user",
+              "label": "Add User",
+              "type": "navigate",
+              "adminPath": "user-new.php",
+              "buttonLabel": "Open Add User",
+              "message": "Opens Users â†’ Add New.",
+              "videoUrl": "https://www.youtube.com/watch?v=Cdo03EajVGU",
+              "videoTitle": "Guide: FB Software AI tutorial",
+              "videoNote": "Guide video selected for this command. Update it in FB Software AI settings if you want to use a different tutorial."
+            },
+            {
+              "id": "profile",
+              "label": "Profile",
+              "type": "navigate",
+              "adminPath": "profile.php",
+              "buttonLabel": "Open Profile",
+              "message": "Opens Users â†’ Profile.",
+              "videoUrl": "https://www.youtube.com/watch?v=Cdo03EajVGU",
+              "videoTitle": "Guide: FB Software AI tutorial",
+              "videoNote": "Guide video selected for this command. Update it in FB Software AI settings if you want to use a different tutorial."
+            }
+          ]
+        },
+        {
+          "id": "tools",
+          "label": "Tools",
+          "description": "WordPress tools shortcuts.",
+          "commands": [
+            {
+              "id": "available_tools",
+              "label": "Available Tools",
+              "type": "navigate",
+              "adminPath": "tools.php",
+              "buttonLabel": "Open Available Tools",
+              "message": "Opens Tools â†’ Available Tools.",
+              "videoUrl": "https://www.youtube.com/watch?v=Cdo03EajVGU",
+              "videoTitle": "Guide: FB Software AI tutorial",
+              "videoNote": "Guide video selected for this command. Update it in FB Software AI settings if you want to use a different tutorial."
+            },
+            {
+              "id": "import",
+              "label": "Import",
+              "type": "navigate",
+              "adminPath": "import.php",
+              "buttonLabel": "Open Import",
+              "message": "Opens Tools â†’ Import.",
+              "videoUrl": "https://www.youtube.com/watch?v=Cdo03EajVGU",
+              "videoTitle": "Guide: FB Software AI tutorial",
+              "videoNote": "Guide video selected for this command. Update it in FB Software AI settings if you want to use a different tutorial."
+            },
+            {
+              "id": "export",
+              "label": "Export",
+              "type": "navigate",
+              "adminPath": "export.php",
+              "buttonLabel": "Open Export",
+              "message": "Opens Tools â†’ Export.",
+              "videoUrl": "https://www.youtube.com/watch?v=Cdo03EajVGU",
+              "videoTitle": "Guide: FB Software AI tutorial",
+              "videoNote": "Guide video selected for this command. Update it in FB Software AI settings if you want to use a different tutorial."
+            },
+            {
+              "id": "site_health",
+              "label": "Site Health",
+              "type": "navigate",
+              "adminPath": "site-health.php",
+              "buttonLabel": "Open Site Health",
+              "message": "Opens Tools â†’ Site Health.",
+              "videoUrl": "https://www.youtube.com/watch?v=Cdo03EajVGU",
+              "videoTitle": "Guide: FB Software AI tutorial",
+              "videoNote": "Guide video selected for this command. Update it in FB Software AI settings if you want to use a different tutorial."
+            },
+            {
+              "id": "export_personal_data",
+              "label": "Export Personal Data",
+              "type": "navigate",
+              "adminPath": "export-personal-data.php",
+              "buttonLabel": "Open Export Personal Data",
+              "message": "Opens Tools â†’ Export Personal Data.",
+              "videoUrl": "https://www.youtube.com/watch?v=Cdo03EajVGU",
+              "videoTitle": "Guide: FB Software AI tutorial",
+              "videoNote": "Guide video selected for this command. Update it in FB Software AI settings if you want to use a different tutorial."
+            },
+            {
+              "id": "erase_personal_data",
+              "label": "Erase Personal Data",
+              "type": "navigate",
+              "adminPath": "erase-personal-data.php",
+              "buttonLabel": "Open Erase Personal Data",
+              "message": "Opens Tools â†’ Erase Personal Data.",
+              "videoUrl": "https://www.youtube.com/watch?v=Cdo03EajVGU",
+              "videoTitle": "Guide: FB Software AI tutorial",
+              "videoNote": "Guide video selected for this command. Update it in FB Software AI settings if you want to use a different tutorial."
+            }
+          ]
+        },
+        {
+          "id": "settings",
+          "label": "Settings",
+          "description": "WordPress settings shortcuts.",
+          "commands": [
+            {
+              "id": "settings_general",
+              "label": "General",
+              "type": "navigate",
+              "adminPath": "options-general.php",
+              "buttonLabel": "Open General Settings",
+              "message": "Opens Settings â†’ General.",
+              "videoUrl": "https://www.youtube.com/watch?v=Cdo03EajVGU",
+              "videoTitle": "Guide: FB Software AI tutorial",
+              "videoNote": "Guide video selected for this command. Update it in FB Software AI settings if you want to use a different tutorial."
+            },
+            {
+              "id": "settings_writing",
+              "label": "Writing",
+              "type": "navigate",
+              "adminPath": "options-writing.php",
+              "buttonLabel": "Open Writing Settings",
+              "message": "Opens Settings â†’ Writing.",
+              "videoUrl": "https://www.youtube.com/watch?v=Cdo03EajVGU",
+              "videoTitle": "Guide: FB Software AI tutorial",
+              "videoNote": "Guide video selected for this command. Update it in FB Software AI settings if you want to use a different tutorial."
+            },
+            {
+              "id": "settings_reading",
+              "label": "Reading",
+              "type": "navigate",
+              "adminPath": "options-reading.php",
+              "buttonLabel": "Open Reading Settings",
+              "message": "Opens Settings â†’ Reading.",
+              "videoUrl": "https://www.youtube.com/watch?v=Cdo03EajVGU",
+              "videoTitle": "Guide: FB Software AI tutorial",
+              "videoNote": "Guide video selected for this command. Update it in FB Software AI settings if you want to use a different tutorial."
+            },
+            {
+              "id": "settings_discussion",
+              "label": "Discussion",
+              "type": "navigate",
+              "adminPath": "options-discussion.php",
+              "buttonLabel": "Open Discussion Settings",
+              "message": "Opens Settings â†’ Discussion.",
+              "videoUrl": "https://www.youtube.com/watch?v=Cdo03EajVGU",
+              "videoTitle": "Guide: FB Software AI tutorial",
+              "videoNote": "Guide video selected for this command. Update it in FB Software AI settings if you want to use a different tutorial."
+            },
+            {
+              "id": "settings_media",
+              "label": "Media",
+              "type": "navigate",
+              "adminPath": "options-media.php",
+              "buttonLabel": "Open Media Settings",
+              "message": "Opens Settings â†’ Media.",
+              "videoUrl": "https://www.youtube.com/watch?v=Cdo03EajVGU",
+              "videoTitle": "Guide: FB Software AI tutorial",
+              "videoNote": "Guide video selected for this command. Update it in FB Software AI settings if you want to use a different tutorial."
+            },
+            {
+              "id": "settings_permalinks",
+              "label": "Permalinks",
+              "type": "navigate",
+              "adminPath": "options-permalink.php",
+              "buttonLabel": "Open Permalinks",
+              "message": "Opens Settings â†’ Permalinks.",
+              "videoUrl": "https://www.youtube.com/watch?v=Cdo03EajVGU",
+              "videoTitle": "Guide: FB Software AI tutorial",
+              "videoNote": "Guide video selected for this command. Update it in FB Software AI settings if you want to use a different tutorial."
+            },
+            {
+              "id": "settings_privacy",
+              "label": "Privacy",
+              "type": "navigate",
+              "adminPath": "options-privacy.php",
+              "buttonLabel": "Open Privacy Settings",
+              "message": "Opens Settings â†’ Privacy.",
+              "videoUrl": "https://www.youtube.com/watch?v=Cdo03EajVGU",
+              "videoTitle": "Guide: FB Software AI tutorial",
+              "videoNote": "Guide video selected for this command. Update it in FB Software AI settings if you want to use a different tutorial."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
